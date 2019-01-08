@@ -10,9 +10,7 @@ const IndexPage = () => (
   <>
     <Layout />
     <div className="container">
-      <div className="about_wall">
-        <About />
-      </div>
+      <About />
     </div>
     <footer>
       © {new Date().getFullYear()}

@@ -3,7 +3,7 @@
   flex-flow: column;
 }
 .about_wall {
-  background-image: url('../images/ancient-architecture.jpg');
+  // background-image: url('../images/ancient-architecture.jpg');
 
   height: 99vh;
 
@@ -11,27 +11,40 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  // box-shadow: 1px 1px 4px #333333;
 
   width: 100%;
   display: flex;
 }
 .text_container {
-  padding: 2rem;
   font-weight: bold;
   background-color: rgba(245, 245, 245, 0.247);
-}
-#about {
-  margin: 0 auto;
-  height: 95%;
-  align-self: center;
-
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    flex-flow: column;
+  }
   h2 {
     font-size: 40px;
     text-align: center;
     padding: 2rem;
     margin: 0;
-
-    background-color: rgba(245, 245, 245, 0.247);
+  }
+  p {
+    width: 50%;
+    @media (max-width: 768px) {
+      width: 90%;
+      margin: 1rem auto;
+    }
+  }
+}
+#about {
+  width: 80%;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  height: 95%;
+  align-self: center;
+  @media (max-width: 415px) {
+    width: 100%;
   }
 }
