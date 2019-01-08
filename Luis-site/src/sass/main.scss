@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-flow: column;
+}
+.about_wall {
+  background-image: url('../images/ancient-architecture-asia-301614.jpg');
+
+  height: 99vh;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // box-shadow: 1px 1px 4px #333333;
+
+  width: 100%;
+  display: flex;
+}
+.text_container {
+  padding: 2rem;
+  font-weight: bold;
+  background-color: rgba(245, 245, 245, 0.247);
+}
+#about {
+  margin: 0 auto;
+  height: 95%;
+  align-self: center;
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+
+    background-color: rgba(245, 245, 245, 0.247);
+  }
+}
