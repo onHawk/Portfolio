@@ -1,16 +1,15 @@
 .header {
-  min-height: 85vh;
+  min-height: 98vh;
 
   display: flex;
   flex-flow: column;
 
-  background-image: url('../images/background-background-image-clouds-1054289.jpg');
+  background-image: url('../images/background-background-image-blue-sky-1054218.jpg');
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  // border: 1px solid red;
 }
 #intro {
   position: sticky;
