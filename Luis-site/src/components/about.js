@@ -1,10 +1,10 @@
 import React from 'react'
 
-import '../sass/main.scss'
+import { Container } from 'reactstrap'
 
 const About = () => {
   return (
-    <div id="about">
+    <Container id="about">
       <div className="text_container">
         <h2>About me</h2>
         <p>
@@ -16,7 +16,7 @@ const About = () => {
           don't want to be restricted to a small area of knowledge and ability.
         </p>
       </div>
-    </div>
+    </Container>
   )
 }
 

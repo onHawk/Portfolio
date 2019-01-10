@@ -4,10 +4,10 @@
 }
 /********** About section styles **********/
 #about {
-  width: 80%;
+  // max-width: 720px;
 
   margin: 0 auto;
-  height: 50vh;
+  height: 60vh;
 
   @media (max-width: 415px) {
     width: 100%;
@@ -29,7 +29,7 @@
 .text_container {
   height: 100%;
   font-weight: bold;
-  background-color: rgba(245, 245, 245, 0.247);
+  // background-color: rgba(245, 245, 245, 0.247);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,6 @@
   }
   h2 {
     font-size: 42px;
-
     align-self: center;
     margin: 3rem 0;
   }
@@ -48,6 +47,7 @@
     margin: 0;
     text-align: center;
     padding: 12% 0;
+
     @media (max-width: 768px) {
       width: 90%;
       margin: 0 auto;
@@ -55,10 +55,36 @@
   }
 }
 /***************************************/
-
+.titles {
+  margin: 4rem 0;
+  text-align: center;
+}
 /********** Projects section **********/
 
 #projects {
+  height: 100vh;
+  // background-color: grey;
+  overflow: hidden;
   display: flex;
   flex-flow: column;
+}
+
+.p {
+  height: 40vh;
+  background-position: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // margin: 1px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+/**** GiveMeMyMoney ****/
+#gmmm {
+  background-image: url('../images/Capture.png');
+}
+/**** Lambda Notes ****/
+#lambdanotes {
+  background-image: url('../images/lambdanotes.png');
+}
+#chronicle {
+  background-image: url('../images/chrncle.jpg');
 }
