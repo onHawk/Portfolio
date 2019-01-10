@@ -11,25 +11,13 @@
 
   padding: 5rem 2rem;
   border: 2px solid #333333;
-  border-radius: 2px;
-
+  border-radius: 5px;
+  background-color: rgba(236, 236, 236, 0.719);
   @media (max-width: 415px) {
     width: 100%;
   }
 }
-.about_wall {
-  // background-image: url('../images/ancient-architecture.jpg');
 
-  height: 99vh;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  width: 100%;
-  display: flex;
-}
 .text_container {
   height: 100%;
   font-weight: bold;
@@ -62,6 +50,7 @@
   }
 }
 /***************************************/
+
 .titles {
   margin: 4rem 0;
   text-align: center;
@@ -78,7 +67,7 @@
 }
 
 .p {
-  height: 40vh;
+  height: 50vh;
   background-position: 40%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,11 +76,29 @@
   font-size: 2rem;
 }
 .details {
-  text-decoration: none;
+  text-align: right;
   margin: 0 auto;
-  padding: 5px;
-  // background-color: grey;
+  padding: 5px 10px;
+  background-color: rgba(236, 236, 236, 0.719);
+  h1 {
+    margin-bottom: 2rem;
+    text-decoration: none;
+    padding: 2rem;
+  }
+  &-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    a {
+      color: black;
+      &:hover {
+        color: #13829e;
+      }
+    }
+  }
 }
+
 /**** GiveMeMyMoney ****/
 #gmmm {
   background-image: url('../images/Capture.png');

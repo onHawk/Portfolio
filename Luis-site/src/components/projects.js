@@ -2,6 +2,8 @@ import React from 'react'
 
 import { Container, Row, Col } from 'reactstrap'
 
+import { GoCode, GoDeviceDesktop } from 'react-icons/go'
+
 const Projects = () => {
   return (
     <div id="projects">
@@ -18,10 +20,18 @@ const Projects = () => {
               href="www.givememymoney.app"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: '#e86c62' }}
             >
-              GiveMeMyMoney
+              <h1 style={{ color: '#e86c62' }}>GiveMeMyMoney</h1>
             </a>
+            <div className="details-links">
+              <a href="www.givememymoney.app">
+                <GoCode />
+              </a>
+              <a href="https://github.com/Lambda-School-Labs/CS8-payme">
+                <GoDeviceDesktop />
+              </a>
+            </div>
+            <p />
           </Col>
         </Row>
 
@@ -33,11 +43,18 @@ const Projects = () => {
               href="l-notes.netlify.com"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: 'crimson' }}
             >
-              {' '}
-              Lambda Notes
+              <h1 style={{ color: 'crimson' }}>Lambda Notes</h1>
             </a>
+
+            <div className="details-links">
+              <a href="l-notes.netlify.com">
+                <GoCode />
+              </a>
+              <a href="https://github.com/onHawk/front-end-project-week">
+                <GoDeviceDesktop />
+              </a>
+            </div>
           </Col>
         </Row>
 
@@ -52,9 +69,15 @@ const Projects = () => {
             >
               <h1 style={{ color: '#a2daff' }}>Chronicle</h1>
             </a>
-            <a href="https://github.com/onHawk/Memory">
-              <p>github</p>
-            </a>
+
+            <div className="details-links">
+              <a href="https://github.com/onHawk/Memory">
+                <GoCode />
+              </a>
+              <a href="http://chronicle-memory.herokuapp.com">
+                <GoDeviceDesktop />
+              </a>
+            </div>
           </Col>
         </Row>
       </Container>
