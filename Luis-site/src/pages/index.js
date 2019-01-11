@@ -10,6 +10,9 @@ import Projects from '../components/projects'
 const IndexPage = () => (
   <Layout>
     <About />
+    <div className="titles">
+      <h2>My Projects</h2>
+    </div>
     <Projects />
 
     <footer>
