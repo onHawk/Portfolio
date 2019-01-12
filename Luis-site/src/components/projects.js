@@ -6,15 +6,21 @@ import { GoCode, GoDeviceDesktop } from 'react-icons/go'
 
 const Projects = () => {
   return (
-    <Container id="projects">
+    <div id="projects">
       <Row className="grid">
+        {/* style={{ backgroundColor: '#e86c62be' }} */}
         <Col xl="4" md="6" className="p" id="gmmm">
           <div className="p-name">
-            <h1 style={{ backgroundColor: '#e86c62' }}>
+            <h1>
               GiveMe
               <br />
               MyMoney
             </h1>
+            <p>
+              Upload client invoices.
+              <br />
+              Client can send payment quick and easy through app.
+            </p>
           </div>
         </Col>
 
@@ -35,14 +41,14 @@ const Projects = () => {
               <GoDeviceDesktop />
             </a>
           </div>
-          <p />
         </Col>
       </Row>
-
+      {/* style={{ backgroundColor: '#333333be' }} */}
       <Row className="grid">
         <Col xl="4" md="6" className="p" id="lambdanotes">
           <div className="p-name">
-            <h1 style={{ backgroundColor: '#A0011E' }}>Lambda Notes</h1>
+            <h1>Lambda Notes</h1>
+            <p>A note app</p>
           </div>
         </Col>
 
@@ -65,13 +71,12 @@ const Projects = () => {
           </div>
         </Col>
       </Row>
-
+      {/* style={{ backgroundColor: '#a2daffbe' }} */}
       <Row className="grid">
         <Col xl="4" md="6" className="p" id="chronicle">
           <div className="p-name">
-            <h1 style={{ backgroundColor: '#a2daffbe' }}>
-              tbd Memory Chronicles
-            </h1>
+            <h1>tbd Memory Chronicles</h1>
+            <p>Journaling app</p>
           </div>
         </Col>
 
@@ -94,7 +99,7 @@ const Projects = () => {
           </div>
         </Col>
       </Row>
-    </Container>
+    </div>
   )
 }
 
