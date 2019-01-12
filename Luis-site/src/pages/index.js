@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 // import SEO from '../components/seo'
 import About from '../components/about'
 import Projects from '../components/projects'
+import Contact from '../components/contact'
 
 const IndexPage = () => (
   <Layout>
@@ -14,7 +15,7 @@ const IndexPage = () => (
       <h2>My Projects</h2>
     </div>
     <Projects />
-
+    <Contact />
     <footer>
       © {new Date().getFullYear()}
       {` `}
