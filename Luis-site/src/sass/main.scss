@@ -290,3 +290,21 @@
   }
 }
 /****************************/
+
+.foot {
+  display: flex;
+  flex-flow: column;
+  // height: 50vh;
+  padding: 0 15px;
+  // margin-top: 5rem;
+  text-align: center;
+
+  @media (max-width: 500px) {
+    // margin-top: 15rem;
+    height: 50vh;
+  }
+
+  &-links {
+    padding-top: 2rem;
+  }
+}
