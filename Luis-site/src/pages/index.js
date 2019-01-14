@@ -63,13 +63,21 @@ const IndexPage = () => (
         </Col>
 
         <Col className="foot-links">
-          <a href="www.github.com/onHawk">
+          <a
+            href="https://www.github.com/onHawk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub size="34" />
           </a>
         </Col>
 
         <Col className="foot-links">
-          <a href="https://www.linkedin.com/in/luis-diaz-herrera-11a306168/">
+          <a
+            href="https://www.linkedin.com/in/luis-diaz-herrera-11a306168/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin size="34" />
           </a>
         </Col>
