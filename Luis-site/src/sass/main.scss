@@ -191,7 +191,7 @@
 
 .form {
   // height: 75vh;
-  width: 100%;
+  // width: 100%;
   margin: 0;
   border-radius: 2px;
 
@@ -269,7 +269,7 @@
 }
 
 .myinfo {
-  background-color: rgba(245, 245, 245, 0.637);
+  background-color: rgba(245, 245, 245, 0.925);
   display: flex;
   flex-flow: column;
   justify-content: space-around;
@@ -281,8 +281,11 @@
 
   a {
     margin-bottom: 1rem;
-    color: #1c4f91;
-
+    color: #333333;
+    &:hover {
+      text-decoration-line: none;
+      color: #5fa5ff73;
+    }
     &:before {
       content: '<';
     }
@@ -296,19 +299,27 @@
 .foot {
   display: flex;
   flex-flow: column;
-  height: 55vh;
+  // height: 60vh;
   padding: 0 15px;
   // margin-top: 5rem;
   text-align: center;
 
   @media (max-width: 500px) {
     // margin-top: 15rem;
-    height: 50vh;
+    // height: 50vh;
   }
 
   &-links {
     height: inherit;
     display: flex;
     align-items: center;
+    color: #f0f0f0;
+    background-color: #333333;
+    a {
+      color: #f0f0f0;
+      &:hover {
+        color: #5fa5ff73;
+      }
+    }
   }
 }
