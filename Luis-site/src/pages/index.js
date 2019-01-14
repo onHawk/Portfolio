@@ -33,7 +33,7 @@ const IndexPage = () => (
     </div>
     <Contact />
     <footer className="foot">
-      <Row>
+      <Row style={{ margin: '0' }}>
         <Col className="myinfo">
           <FaAddressCard size="34px" />
           <p> 770.778.9995 </p>
@@ -45,7 +45,7 @@ const IndexPage = () => (
         </Col>
       </Row>
 
-      <Row>
+      <Row style={{ margin: '0' }}>
         <Col className="myinfo" md="12">
           <FaGlobe size="34" />
           <p style={{ fonztSize: '18px', margin: '0' }}>
@@ -55,7 +55,7 @@ const IndexPage = () => (
         </Col>
       </Row>
 
-      <Row style={{ height: '105px' }}>
+      <Row style={{ height: '105px', margin: '0' }}>
         <Col className="foot-links">
           <p style={{ margin: '9px', color: '#5fa5ff73' }}>
             © {new Date().getFullYear()}
