@@ -6,9 +6,6 @@ const About = () => {
   return (
     <Container id="about">
       <div className="text_container">
-        <div className="titles">
-          <h2>About me</h2>
-        </div>
         <p>
           I am experienced in web development consisting of front-end work and
           back-end but do not plan on leaving it there. I am a passionate

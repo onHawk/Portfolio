@@ -20,6 +20,9 @@ import {
 
 const IndexPage = () => (
   <Layout>
+    <div className="titles">
+      <h2>About me</h2>
+    </div>
     <About />
     <div className="titles">
       <h2>My Projects</h2>
