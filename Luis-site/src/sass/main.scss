@@ -82,7 +82,6 @@
     // border-right: none;
   }
   &:hover {
-    border-radius: 20px;
     margin-bottom: 10px;
     padding: 10px;
   }
@@ -191,26 +190,31 @@
 #contact {
   height: 100vh;
   padding: 0;
+  // max-width: 90% !important;
 }
 
 .form {
-  height: 75vh;
+  // height: 75vh;
   width: 100%;
-  padding: 1rem;
+  // padding: 0 1rem;
   margin: 0;
+  border-radius: 2px;
 
   label {
     font-size: 24px;
     margin: 10px;
+    color: #f0f0f0;
   }
   &-groups {
-    padding: 3rem 2rem;
+    height: 22vh;
+    padding: 2rem !important;
     display: flex;
     flex-flow: column;
-    border: 2px solid #333333;
-
+    border-bottom: 2px solid #5fa5ff73;
+    background-color: #333333;
+    // border-radius: 3px 3px 0 0;
     input {
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
       outline: none;
       width: 80%;
       padding: 10px;
@@ -229,14 +233,16 @@
     margin: 1rem auto;
     width: 150px;
     padding: 10px;
-    background-color: rgb(245, 245, 245);
-    border: 2px solid #333333;
-    border-radius: 5px;
+    background-color: #333333;
+    border: none;
+    border-radius: 3px;
+    border: 2px solid #5fa5ff73;
     cursor: pointer;
     transition: ease-in 0.3s all;
-
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    color: #f0f0f0;
     &:hover {
-      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
   }
 }
@@ -246,16 +252,17 @@
   flex-flow: column;
   justify-content: center;
   padding: 2rem;
-  border: 2px solid #333333;
-
+  // border: 2px solid #555555;
+  background-color: #333333;
+  height: 50vh;
+  border-radius: 0 0 3px 3px;
   textarea {
-    margin: 20px 5px;
+    margin-bottom: 2rem;
     padding: 1rem;
-    height: 70%;
+    height: 60%;
     width: 70%;
     resize: none;
     align-self: center;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     outline: none;
     background-color: transparent;
     border-radius: 5px;
@@ -294,7 +301,7 @@
 .foot {
   display: flex;
   flex-flow: column;
-  // height: 50vh;
+  height: 60vh;
   padding: 0 15px;
   // margin-top: 5rem;
   text-align: center;
