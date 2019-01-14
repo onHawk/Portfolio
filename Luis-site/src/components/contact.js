@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'reactstrap'
 
 const Contact = () => {
   return (
-    <Container id="contact">
+    <div id="contact">
       <form className="form">
         <Row style={{ margin: '0 auto' }}>
           <Col xl="6" md="6" xs="12" className="form-groups">
@@ -26,7 +26,7 @@ const Contact = () => {
           </Col>
         </Row>
       </form>
-    </Container>
+    </div>
   )
 }
 

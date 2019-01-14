@@ -4,7 +4,7 @@ import { Container } from 'reactstrap'
 
 const About = () => {
   return (
-    <Container id="about">
+    <div id="about">
       <div className="text_container">
         <p>
           I am experienced in web development consisting of front-end work and
@@ -15,7 +15,7 @@ const About = () => {
           don't want to be restricted to a small area of knowledge and ability.
         </p>
       </div>
-    </Container>
+    </div>
   )
 }
 
