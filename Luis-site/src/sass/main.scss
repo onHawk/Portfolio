@@ -66,8 +66,8 @@
   border-radius: 5px;
 
   @media (max-width: 400px) {
-    // align-items: center;
-    width: 90%;
+    margin: 0;
+    width: 100%;
   }
 }
 
@@ -186,12 +186,9 @@
 #contact {
   height: 100%;
   padding: 0;
-  // max-width: 90% !important;
 }
 
 .form {
-  // height: 75vh;
-  // width: 100%;
   margin: 0;
   border-radius: 2px;
 
@@ -262,7 +259,7 @@
     color: #f0f0f0;
     background-color: #3f3f3f;
 
-    @media (max-width: 450px) {
+    @media (max-width: 768px) {
       width: 100%;
     }
   }
@@ -299,15 +296,7 @@
 .foot {
   display: flex;
   flex-flow: column;
-  // height: 60vh;
-  padding: 0 15px;
-  // margin-top: 5rem;
   text-align: center;
-
-  @media (max-width: 500px) {
-    // margin-top: 15rem;
-    // height: 50vh;
-  }
 
   &-links {
     height: inherit;
