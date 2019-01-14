@@ -64,7 +64,7 @@
   margin: 1rem auto;
   padding: 0;
   border-radius: 5px;
-  // border: 1px solid #333333;
+
   @media (max-width: 400px) {
     // align-items: center;
     width: 90%;
@@ -78,11 +78,9 @@
   border-left: 2px solid #333333;
   margin: 0;
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-  @media (max-width: 768px) {
-    // border-right: none;
-  }
+
   &:hover {
-    margin-bottom: 10px;
+    margin: 10px 0;
     padding: 10px;
   }
 }
@@ -117,8 +115,6 @@
       background-color: #f0f0f0be;
     }
     h1 {
-      // border-top: 2px solid #333333;
-      // background-color: #333333be;
       align-self: flex-end;
       font-size: 2rem;
       width: 100%;
@@ -188,7 +184,7 @@
 /**** Contact me section ****/
 
 #contact {
-  height: 100vh;
+  height: 100%;
   padding: 0;
   // max-width: 90% !important;
 }
@@ -196,7 +192,6 @@
 .form {
   // height: 75vh;
   width: 100%;
-  // padding: 0 1rem;
   margin: 0;
   border-radius: 2px;
 
@@ -220,7 +215,6 @@
       color: #f0f0f0;
       background-color: #3f3f3f;
       border: 1px solid #333333;
-
       @media (max-width: 768px) {
         width: 100%;
       }
@@ -253,7 +247,7 @@
   // border: 2px solid #555555;
   background-color: #333333;
   height: 50vh;
-  border-radius: 0 0 3px 3px;
+  // border-radius: 0 0 3px 3px;
   textarea {
     margin-bottom: 2rem;
     padding: 1rem;
@@ -281,7 +275,9 @@
   justify-content: space-around;
   height: 200px;
   padding: 1rem;
-  border: 1px solid #333333;
+  border-bottom: 2px solid #333333;
+  border-left: 2px solid #333333;
+  border-right: 2px solid #333333;
 
   a {
     margin-bottom: 1rem;
@@ -300,7 +296,7 @@
 .foot {
   display: flex;
   flex-flow: column;
-  height: 60vh;
+  height: 55vh;
   padding: 0 15px;
   // margin-top: 5rem;
   text-align: center;
@@ -311,6 +307,8 @@
   }
 
   &-links {
-    padding-top: 2rem;
+    height: inherit;
+    display: flex;
+    align-items: center;
   }
 }
