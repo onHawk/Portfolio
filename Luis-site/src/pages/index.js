@@ -20,18 +20,27 @@ import {
 
 const IndexPage = () => (
   <Layout>
-    <div className="titles">
-      <h2>About me</h2>
+    <div style={{ backgroundColor: '#333333' }} className="sections">
+      <div className="titles">
+        <h2 style={{ color: '#5fb7ffb2' }}>About me</h2>
+      </div>
+      <About />
     </div>
-    <About />
-    <div className="titles">
-      <h2>My Projects</h2>
+
+    <div style={{ backgroundColor: '#396080' }} className="sections">
+      <div className="titles">
+        <h2 style={{ color: '#333333' }}>My Portfolio</h2>
+      </div>
+      <Projects />
     </div>
-    <Projects />
-    <div className="titles">
-      <h2>Contact me</h2>
+
+    <div style={{ backgroundColor: '#333333' }} className="sections">
+      <div className="titles">
+        <h2 style={{ color: '#5fb7ffb2' }}>Contact me</h2>
+      </div>
+      <Contact />
     </div>
-    <Contact />
+
     <footer className="foot">
       <Row style={{ margin: '0' }}>
         <Col className="myinfo" style={{ borderRight: '1px solid #333333' }}>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Container, Row, Col } from 'reactstrap'
+import { Row, Col } from 'reactstrap'
 
 import { GoCode, GoDeviceDesktop } from 'react-icons/go'
 
@@ -42,9 +42,9 @@ const Projects = () => {
             </a>
           </div>
         </Col>
-        {/* </Row> */}
+      </Row>
 
-        {/* <Row className="grid"> */}
+      <Row className="grid">
         <Col xl="4" md="6" className="p" id="lambdanotes">
           <div className="p-name">
             <h1>Lambda Notes</h1>
@@ -70,9 +70,10 @@ const Projects = () => {
             </a>
           </div>
         </Col>
-        {/* </Row> */}
-        {/* style={{ backgroundColor: '#a2daffbe' }} */}
-        {/* <Row className="grid"> */}
+      </Row>
+      {/* style={{ backgroundColor: '#a2daffbe' }} */}
+
+      <Row className="grid">
         <Col xl="4" md="6" className="p" id="chronicle">
           <div className="p-name">
             <h1>tbd Memory Chronicles</h1>
