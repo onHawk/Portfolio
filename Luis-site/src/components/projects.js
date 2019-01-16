@@ -9,7 +9,7 @@ const Projects = () => {
     <div id="projects">
       <Row className="grid">
         {/* style={{ backgroundColor: '#e86c62be' }} */}
-        <Col xl="4" md="6" className="p" id="gmmm">
+        <Col xl="3" md="6" className="p" id="gmmm">
           <div className="p-name">
             <h1>
               GiveMe
@@ -45,7 +45,7 @@ const Projects = () => {
       </Row>
 
       <Row className="grid">
-        <Col xl="4" md="6" className="p" id="lambdanotes">
+        <Col xl="3" md="6" className="p" id="lambdanotes">
           <div className="p-name">
             <h1>Lambda Notes</h1>
             <p>A note app</p>
@@ -74,7 +74,7 @@ const Projects = () => {
       {/* style={{ backgroundColor: '#a2daffbe' }} */}
 
       <Row className="grid">
-        <Col xl="4" md="6" className="p" id="chronicle">
+        <Col xl="3" md="6" className="p" id="chronicle">
           <div className="p-name">
             <h1>tbd Memory Chronicles</h1>
             <p>Journaling app</p>
