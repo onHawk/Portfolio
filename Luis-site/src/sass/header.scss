@@ -4,16 +4,13 @@
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
-
-  background-image: url('../images/background-mtn.jpg');
-
+  background-image: url('../images/ancient-architecture.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #intro {
-  // align-self: center;
   padding: 0 3rem;
   margin-bottom: 20rem;
 
@@ -24,12 +21,13 @@
     font-weight: 200;
     font-family: Roboto, sans-serif;
     font-size: 5rem;
-    color: #f0f0f0;
+    color: #333333;
   }
   p {
     padding: 0 5px;
     font-weight: 400;
     font-family: Roboto, sans-serif;
     margin: 0.5rem 0;
+    color: #0176d6;
   }
 }
