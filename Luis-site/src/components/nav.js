@@ -1,19 +1,31 @@
 import React from 'react'
 
+import '../sass/nav.scss'
+
 const Nav = () => {
   return (
-    <div>
-      <ul>
-        <li>
+    <div className="bar">
+      <ul className="nav">
+        <li className="nav-i">
           <a href="#about">About</a>
         </li>
 
-        <li>
+        <li className="nav-i">
           <a href="#projects">Portfolio</a>
         </li>
 
-        <li>
+        <li className="nav-i">
           <a href="#contact">Contact</a>
+        </li>
+
+        <li className="nav-i">
+          <a
+            href="https://drive.google.com/file/d/149M4giAxUcUvAwk-tbA8RIL8Dc9ZKdSA/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </li>
       </ul>
     </div>
