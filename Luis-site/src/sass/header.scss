@@ -1,8 +1,9 @@
 .header {
-  min-height: 98vh;
+  min-height: 90vh;
 
   display: flex;
-  flex-flow: column;
+  flex-flow: column wrap;
+  justify-content: flex-end;
 
   background-image: url('../images/background-mtn.jpg');
 
@@ -12,10 +13,10 @@
   background-size: cover;
 }
 #intro {
-  position: sticky;
-  top: 21rem;
-
+  // align-self: center;
   padding: 0 3rem;
+  margin-bottom: 10rem;
+
   @media (max-width: 768px) {
     padding: 1rem;
   }
