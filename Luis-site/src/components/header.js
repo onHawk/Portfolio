@@ -8,9 +8,7 @@ const Header = ({ siteTitle }) => (
   <div className="header">
     <div id="intro">
       <h1 style={{ margin: 0 }}>{siteTitle}</h1>
-      <p style={{ color: '#f0f0f0', margin: '1rem 0' }}>
-        Full-Stack Software Engineer.
-      </p>
+      <p>Full-Stack Software Engineer.</p>
     </div>
   </div>
 )
