@@ -22,21 +22,21 @@ const IndexPage = () => (
   <Layout>
     <div style={{ backgroundColor: '#333333' }} className="sections">
       <div className="titles">
-        <h2 style={{ color: '#5fb7ffb2' }}>About me</h2>
+        <h2>About me</h2>
       </div>
       <About />
     </div>
 
     <div style={{ backgroundColor: '#396080' }} className="sections">
       <div className="titles">
-        <h2 style={{ color: '#333333' }}>My Portfolio</h2>
+        <h2 style={{ color: '#f0f0f0' }}>My Portfolio</h2>
       </div>
       <Projects />
     </div>
 
     <div style={{ backgroundColor: '#333333' }} className="sections">
       <div className="titles">
-        <h2 style={{ color: '#5fb7ffb2' }}>Contact me</h2>
+        <h2>Contact me</h2>
       </div>
       <Contact />
     </div>
