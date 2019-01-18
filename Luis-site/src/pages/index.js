@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 import About from '../components/about'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
+import Nav from '../components/nav'
 
 import { Container, Row, Col } from 'reactstrap'
 import {
@@ -20,24 +21,16 @@ import {
 
 const IndexPage = () => (
   <Layout>
+    <Nav />
     <div style={{ backgroundColor: '#333333' }} className="sections">
-      <div className="titles">
-        <h2>About me</h2>
-      </div>
       <About />
     </div>
 
     <div style={{ backgroundColor: '#396080' }} className="sections">
-      <div className="titles">
-        <h2 style={{ color: '#f0f0f0' }}>My Portfolio</h2>
-      </div>
       <Projects />
     </div>
 
     <div style={{ backgroundColor: '#333333' }} className="sections">
-      <div className="titles">
-        <h2>Contact me</h2>
-      </div>
       <Contact />
     </div>
 

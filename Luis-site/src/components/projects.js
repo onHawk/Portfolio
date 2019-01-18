@@ -7,6 +7,9 @@ import { GoCode, GoDeviceDesktop } from 'react-icons/go'
 const Projects = () => {
   return (
     <div id="projects">
+      <div className="titles">
+        <h2 style={{ color: '#f0f0f0' }}>My Portfolio</h2>
+      </div>
       <Row className="grid">
         {/* style={{ backgroundColor: '#e86c62be' }} */}
         <Col xl="3" md="6" className="p" id="gmmm">

@@ -5,6 +5,10 @@ import { Container, Row, Col } from 'reactstrap'
 const Contact = () => {
   return (
     <div id="contact">
+      <div className="titles">
+        <h2>Contact me</h2>
+      </div>
+
       <form className="form">
         <Row style={{ margin: '0 auto' }}>
           <Col xl="6" md="6" xs="12" className="form-groups">

@@ -5,6 +5,9 @@ import { Container } from 'reactstrap'
 const About = () => {
   return (
     <div id="about">
+      <div className="titles">
+        <h2>About me</h2>
+      </div>
       <div className="text_container">
         <p>
           I am experienced in web development consisting of front-end work and
