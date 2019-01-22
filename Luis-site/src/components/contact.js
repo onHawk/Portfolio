@@ -9,7 +9,13 @@ const Contact = () => {
         <h2>Contact me</h2>
       </div>
 
-      <form className="form">
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        className="form"
+      >
         <Row style={{ margin: '0 auto' }}>
           <Col xl="6" md="6" xs="12" className="form-groups">
             <label>Name</label>
@@ -21,12 +27,14 @@ const Contact = () => {
             <input name="email" type="email" />
           </Col>
         </Row>
-
+        {/* <div data-netlify-recaptcha="true"></div> */}
         <Row style={{ margin: '0 auto' }}>
           <Col id="messagefield">
             <label>Message</label>
             <textarea name="message" />
-            <button className="form-button">Send</button>
+            <button className="form-button" type="submit">
+              Send
+            </button>
           </Col>
         </Row>
       </form>
