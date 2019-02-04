@@ -8,6 +8,7 @@ const About = () => {
       <div className="titles">
         <h2>About me</h2>
       </div>
+      <div id="me" />
       <div className="text_container">
         <p>
           I am experienced in web development consisting of front-end work and
