@@ -11,12 +11,11 @@ const About = () => {
       <div id="me" />
       <div className="text_container">
         <p>
-          I am experienced in web development consisting of front-end work and
-          back-end but do not plan on leaving it there. I am a passionate
-          Software Engineer that loves all things tech and getting into
-          programming after learning the many incredible things you can create
-          and accomplish. I strive to be a well rounded developer because I
-          don't want to be restricted to a small area of knowledge and ability.
+          Full-Stack Software Engineer passionate about programming and
+          technology. Tech is my life and I am always trying to learn more about
+          my area of knowledge and to expand it past what I already know. I have
+          worked on numerous projects consisting of front-end web technologies
+          and back-end server technologies.
         </p>
       </div>
     </div>
