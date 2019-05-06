@@ -11,7 +11,6 @@ const Projects = () => {
         <h2 style={{ color: '#f0f0f0' }}>My Portfolio</h2>
       </div>
       <Row className="grid">
-        {/* style={{ backgroundColor: '#e86c62be' }} */}
         <Col xl="3" md="5" className="p" id="gmmm">
           <div className="p-name">
             <h1>
@@ -51,7 +50,9 @@ const Projects = () => {
         <Col xl="3" md="5" className="p" id="lambdanotes">
           <div className="p-name">
             <h1>Lambda Notes</h1>
-            <p>A note app</p>
+            <p>
+              A note app built in React front-end, Node and MongoDB back-end.
+            </p>
           </div>
         </Col>
 
@@ -74,13 +75,15 @@ const Projects = () => {
           </div>
         </Col>
       </Row>
-      {/* style={{ backgroundColor: '#a2daffbe' }} */}
 
       <Row className="grid">
         <Col xl="3" md="5" className="p" id="chronicle">
           <div className="p-name">
-            <h1>tbd Memory Chronicles</h1>
-            <p>Journaling app</p>
+            <h1>Memory Chronicles</h1>
+            <p>
+              Journaling app built in React front-end, Node and MongoDB
+              back-end. Looks elegant and as straight forward as can be.
+            </p>
           </div>
         </Col>
 
@@ -100,6 +103,39 @@ const Projects = () => {
             >
               <GoDeviceDesktop />
             </a>
+          </div>
+        </Col>
+      </Row>
+
+      <Row className="grid">
+        <Col xl="3" md="5" className="p" id="quicknews">
+          <div className="p-name">
+            <h1 style={{ color: '#333333' }}>Quicknews</h1>
+            <p>
+              News browsing mobile app I made in React-Native. Using News api
+              from <span style={{ color: 'green' }}>newsapi.org</span>. It grabs
+              top headlines given a news outlet or a topic category. Apk is
+              available only for android right now.
+            </p>
+          </div>
+        </Col>
+
+        <Col xl="1" md="1" className="details">
+          <div className="details-links">
+            <a
+              href="https://github.com/onHawk/quicknews"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GoCode />
+            </a>
+            {/* <a
+              href="https://chronicle-memory.herokuapp.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GoDeviceDesktop />
+            </a> */}
           </div>
         </Col>
       </Row>
