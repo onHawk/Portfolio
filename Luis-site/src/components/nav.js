@@ -6,27 +6,26 @@ const Nav = () => {
   return (
     <div className="bar">
       <ul className="nav">
-        <li className="nav-i">
-          <a href="#about">About</a>
-        </li>
+        <a className="nav-i" href="#about">
+          <li>About</li>
+        </a>
 
-        <li className="nav-i">
-          <a href="#projects">Portfolio</a>
-        </li>
+        <a className="nav-i" href="#projects">
+          <li>Portfolio</li>
+        </a>
 
-        <li className="nav-i">
-          <a href="#contact">Contact</a>
-        </li>
+        <a className="nav-i" href="#contact">
+          <li>Contact</li>
+        </a>
 
-        <li className="nav-i">
-          <a
-            href="https://drive.google.com/file/d/1Zpx9uIAelDhT4zC6CiGXxoNY6fKvQiDs/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resume
-          </a>
-        </li>
+        <a
+          href="https://drive.google.com/file/d/1Zpx9uIAelDhT4zC6CiGXxoNY6fKvQiDs/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-i"
+        >
+          <li>Resume</li>
+        </a>
       </ul>
     </div>
   )
