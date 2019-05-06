@@ -20,7 +20,6 @@
     font-weight: 100;
     font-family: Roboto, sans-serif;
     font-size: 3rem;
-    // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
 
   @media (max-width: 768px) {
@@ -52,21 +51,17 @@
 }
 
 .text_container {
-  // background-color: #f0f0f0;
   color: #f0f0f0;
   height: 100%;
   font-weight: bold;
   width: 100%;
-  // margin: 0 auto;
   display: flex;
   flex-flow: column;
   border: 1px solid #333333;
-  // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 3px;
 
   @media (max-width: 768px) {
     flex-flow: column;
-    // width: 90%;
   }
 
   p {
@@ -86,7 +81,6 @@
       margin: 0 auto;
       padding: 1rem 0;
       font-size: 16px;
-      // border: none;
     }
   }
 }
@@ -120,7 +114,6 @@
   }
 
   @media (max-width: 768px) {
-    // width: 80%;
     margin: 0 auto !important;
   }
   @media (max-width: 414px) {
@@ -144,7 +137,6 @@
 
   &:hover {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    // border-right-width: 10px;
   }
 
   @media (max-width: 767px) {
@@ -160,15 +152,14 @@
     background-color: #33333375;
     &:hover {
       color: #333333;
-      transition: 0.4s;
+      transition: 0.3s ease-in;
       height: 100%;
-      // opacity: 1;
       background-color: #f0f0f0be;
     }
 
     h1 {
       align-self: flex-end;
-      font-weight: 300;
+      font-weight: 400;
       font-family: Roboto, 'sans';
       font-size: 2rem;
       width: 95%;
@@ -177,15 +168,13 @@
     }
 
     p {
-      // z-index: 0;
       width: 100%;
       height: 100%;
       // opacity: 0;
       position: absolute;
       padding: 3rem;
-      font-weight: 400;
+      font-weight: 300;
       font-size: 18px;
-      // transition: 0.4s;
     }
   }
 }
@@ -216,7 +205,6 @@
 
       &:hover {
         color: #5fb7ffb2;
-        // font-size: 2.2rem;
       }
     }
     @media (max-width: 768px) {
@@ -253,7 +241,6 @@
   margin: 5px auto;
   border-radius: 2px;
   width: 83%;
-  // border-top: 2px solid #5fa5ff73;
 
   @media (max-width: 768px) {
     width: 100%;
