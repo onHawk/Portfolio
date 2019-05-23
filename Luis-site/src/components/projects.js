@@ -59,7 +59,7 @@ const Projects = () => {
         <Col xl="1" md="1" className="details">
           <div className="details-links">
             <a
-              href="https://github.com/onHawk/front-end-project-week"
+              href="https://github.com/Luisdh/front-end-project-week"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -90,7 +90,7 @@ const Projects = () => {
         <Col xl="1" md="1" className="details">
           <div className="details-links">
             <a
-              href="https://github.com/onHawk/Memory"
+              href="https://github.com/Luisdh/Memory"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -123,19 +123,12 @@ const Projects = () => {
         <Col xl="1" md="1" className="details">
           <div className="details-links">
             <a
-              href="https://github.com/onHawk/quicknews"
+              href="https://github.com/Luisdh/quicknews"
               target="_blank"
               rel="noopener noreferrer"
             >
               <GoCode />
             </a>
-            {/* <a
-              href="https://chronicle-memory.herokuapp.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GoDeviceDesktop />
-            </a> */}
           </div>
         </Col>
       </Row>
