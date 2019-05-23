@@ -1,9 +1,6 @@
 import React from 'react'
-// import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-// import Image from '../components/image'
-// import SEO from '../components/seo'
 import About from '../components/about'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
@@ -64,7 +61,7 @@ const IndexPage = () => (
 
         <Col className="foot-links">
           <a
-            href="https://www.github.com/onHawk"
+            href="https://www.github.com/Luisdh"
             target="_blank"
             rel="noopener noreferrer"
           >
