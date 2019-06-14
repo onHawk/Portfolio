@@ -40,19 +40,14 @@ const IndexPage = () => (
           <FaEnvelope size="34px" />
           <a href="mailto:luisd824@gmail.com">luisd824@gmail.com</a>
         </Col>
-      </Row>
 
-      <Row style={{ margin: '0' }}>
-        <Col className="myinfo" md="12">
-          <FaGlobe size="34" />
-          <p style={{ fonztSize: '18px', margin: '0' }}>
-            7472 Majestic Lane <br />
-            Flowery Branch, Ga 30542
-          </p>
+        <Col className="myinfo" style={{ borderLeft: '1px solid #333333' }}>
+          <FaGlobe size="34px" />
+          <p>Atlanta Area, GA</p>
         </Col>
       </Row>
 
-      <Row style={{ height: '105px', margin: '0' }}>
+      <Row style={{ height: '60px', margin: '0' }}>
         <Col className="foot-links">
           <p style={{ margin: '9px', color: '#5fa5ff73' }}>
             © {new Date().getFullYear()}

@@ -9,7 +9,8 @@
   width: 95%;
   background-color: transparent;
   border-radius: 5px;
-  color: #396080;
+  // color: #396080;
+  color: red;
 
   h2 {
     border-bottom: 2px solid #5fb7ffb2;
@@ -326,7 +327,7 @@
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  height: 200px;
+  height: 100px;
   padding: 1rem;
   border-bottom: 2px solid #333333;
   a {
