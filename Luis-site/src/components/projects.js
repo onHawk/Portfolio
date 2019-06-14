@@ -19,9 +19,11 @@ const Projects = () => {
               MyMoney
             </h1>
             <p>
-              Upload client invoices.
-              <br />
-              Client can send payment quick and easy through app.
+              Web app built in React frontend and Node and Mongodb backend.
+              Aimed to streamline invoice sending and organization. I built this
+              as part of a team where I handled the reminder feature to send
+              either a sms or email message to let a client know when an invoice
+              is due.
             </p>
           </div>
         </Col>
@@ -51,7 +53,8 @@ const Projects = () => {
           <div className="p-name">
             <h1>Lambda Notes</h1>
             <p>
-              A note app built in React front-end, Node and MongoDB back-end.
+              A note taking app built in React frontend, Node and MongoDB
+              backend.
             </p>
           </div>
         </Col>
@@ -81,8 +84,9 @@ const Projects = () => {
           <div className="p-name">
             <h1>Memory Chronicles</h1>
             <p>
-              Journaling app built in React front-end, Node and MongoDB
-              back-end. Looks elegant and as straight forward as can be.
+              Journal app built in React frontend, Node and MongoDB backend.I
+              aimed to have it be as straight forward as possible without
+              convoluting the task of journaling.
             </p>
           </div>
         </Col>
@@ -112,10 +116,13 @@ const Projects = () => {
           <div className="p-name">
             <h1 style={{ color: '#333333' }}>Quicknews</h1>
             <p>
-              News browsing mobile app I made in React-Native. Using News api
-              from <span style={{ color: 'green' }}>newsapi.org</span>. It grabs
-              top headlines given a news outlet or a topic category. Apk is
-              available only for android right now.
+              News browsing mobile app I made in React-Native as a way to learn
+              more about it. I used the News api from{' '}
+              <span style={{ color: 'green', fontWeight: 'bold' }}>
+                newsapi.org
+              </span>
+              . It grabs top headlines given a news outlet or a topic category.
+              Apk is available.
             </p>
           </div>
         </Col>
