@@ -11,7 +11,7 @@ const Projects = () => {
         <h2 style={{ color: '#f0f0f0' }}>My Portfolio</h2>
       </div>
       <Row className="grid">
-        <Col xl="3" md="5" className="p" id="gmmm">
+        <Col xl="3" md="4" className="p" id="gmmm">
           <div className="p-name">
             <h1>
               GiveMe
@@ -28,7 +28,7 @@ const Projects = () => {
           </div>
         </Col>
 
-        <Col xl="1" md="1" className="details">
+        <Col md="1" className="details">
           <div className="details-links">
             <a
               href="https://github.com/Lambda-School-Labs/CS8-payme"
@@ -46,10 +46,10 @@ const Projects = () => {
             </a>
           </div>
         </Col>
-      </Row>
+        {/* </Row> */}
 
-      <Row className="grid">
-        <Col xl="3" md="5" className="p" id="lambdanotes">
+        {/* <Row className="grid"> */}
+        <Col xl="3" md="4" className="p" id="lambdanotes">
           <div className="p-name">
             <h1>Lambda Notes</h1>
             <p>
@@ -109,9 +109,9 @@ const Projects = () => {
             </a>
           </div>
         </Col>
-      </Row>
 
-      <Row className="grid">
+        {/* </Row>
+      <Row className="grid"> */}
         <Col xl="3" md="5" className="p" id="quicknews">
           <div className="p-name">
             <h1 style={{ color: '#333333' }}>Quicknews</h1>

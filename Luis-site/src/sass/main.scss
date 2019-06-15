@@ -4,13 +4,14 @@
 }
 .titles {
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: left;
-  width: 95%;
-  background-color: transparent;
-  border-radius: 5px;
-  // color: #396080;
+  width: 100%;
+  // background-color: #2ec4ff0a;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   color: red;
+  margin-bottom: 1rem;
 
   h2 {
     border-bottom: 2px solid #5fb7ffb2;
@@ -90,13 +91,25 @@
 /********** Projects section **********/
 #projects {
   height: auto;
-  // overflow: hidden;
+  background-color: #333333;
   width: 100%;
   display: flex;
   flex-flow: column;
   margin: 0 auto;
   padding-bottom: 1rem;
+  border-radius: 4px;
+  transition: 0.5s;
 
+  &:hover {
+    transition: all 0.5s;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+    // padding: 10px;
+    width: 95%;
+  }
+  @media (max-width: 860px) {
+    pointer-events: none;
+  }
   @media (max-width: 400px) {
     margin: 0;
     width: 100%;
@@ -107,34 +120,33 @@
   display: flex;
   justify-content: center;
   margin: 5px auto !important;
-  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-  width: 100%;
-  &:hover {
-    margin: 10px;
-    padding: 10px;
-  }
+  transition: all 0.5s;
+  width: 95%;
 
   @media (max-width: 768px) {
     margin: 0 auto !important;
   }
   @media (max-width: 414px) {
-    width: 100%;
+    // width: 100%;
   }
 }
 
 .p {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   height: 40vh;
   min-height: 300px;
   padding: 0 !important;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 350px;
+  min-width: 350px;
   margin-right: 0;
   font-size: 2rem;
   border-radius: 5px 0 0 5px;
-  border: 3px solid #333333;
-  // transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: 2px solid #333333;
+  z-index: 1;
 
   &:hover {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -145,47 +157,49 @@
   }
 
   &-name {
-    display: flex;
-    transition: 0.4s;
+    transition: 0.3s;
     height: 100%;
     text-align: center;
-    color: #f0f0f0;
-    background-color: #33333375;
+    color: #333333;
+    background-color: #f0f0f0be;
     &:hover {
-      color: #333333;
+      background-color: #4747479d;
+      color: #f0f0f0;
       transition: 0.3s ease-in;
-      height: 100%;
-      background-color: #f0f0f0be;
+      // height: 100%;
     }
 
     h1 {
-      align-self: flex-end;
       font-weight: 400;
       font-family: Roboto, 'sans';
       font-size: 2rem;
-      width: 95%;
-      padding: 20px;
-      height: fit-content;
+      // width: 95%;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
     }
 
     p {
-      width: 100%;
-      height: 100%;
-      // opacity: 0;
+      margin: 10px auto 0 auto;
+      min-width: 320px;
       position: absolute;
-      padding: 3rem;
-      font-weight: 300;
-      font-size: 18px;
+      padding: 0 15px;
+      font-weight: 400;
+      font-size: 16px;
     }
   }
 }
 .details {
   text-align: right;
   margin: 0;
+  padding: 0 !important;
   background-color: #333333;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  max-width: 100px !important;
+  // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 0 5px 5px 0;
+  // border-right: 3px solid #f0f0f0;
   @media (max-width: 768px) {
+    z-index: 0;
     border-radius: 0 0 5px 5px;
   }
 
@@ -205,7 +219,7 @@
       font-size: 30px;
 
       &:hover {
-        color: #5fb7ffb2;
+        color: #75ff19de;
       }
     }
     @media (max-width: 768px) {
@@ -220,6 +234,8 @@
 /**** GiveMeMyMoney ****/
 #gmmm {
   background-image: url('../images/Capture.png');
+
+  // filter: blur(5px);
 }
 /**** Lambda Notes ****/
 #lambdanotes {

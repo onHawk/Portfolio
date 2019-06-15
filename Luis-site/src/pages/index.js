@@ -21,7 +21,7 @@ const IndexPage = () => (
       <About />
     </div>
 
-    <div style={{ backgroundColor: '#396080' }} className="sections">
+    <div className="sections">
       <Projects />
     </div>
 
