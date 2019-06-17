@@ -25,17 +25,27 @@ const IndexPage = () => (
 
     <footer className="foot">
       <Row style={{ margin: '0' }}>
-        <Col className="myinfo" style={{ borderRight: '1px solid #333333' }}>
+        <Col xl="4" md="6" className="myinfo">
           <FaAddressCard size="34px" />
           <p> 770.778.9995 </p>
         </Col>
 
-        <Col className="myinfo" style={{ borderLeft: '1px solid #333333' }}>
+        <Col
+          xl="4"
+          md="6"
+          className="myinfo"
+          style={{ borderLeft: '1px solid #333333' }}
+        >
           <FaEnvelope size="34px" />
           <a href="mailto:luisd824@gmail.com">luisd824@gmail.com</a>
         </Col>
 
-        <Col className="myinfo" style={{ borderLeft: '1px solid #333333' }}>
+        <Col
+          xl="4"
+          md="12"
+          className="myinfo"
+          style={{ borderLeft: '1px solid #333333' }}
+        >
           <FaGlobe size="34px" />
           <p>Atlanta Area, GA</p>
         </Col>
