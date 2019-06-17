@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'reactstrap'
 
 const Contact = () => {
   return (
-    <div id="contact">
+    <div id="contact" className="sections">
       <div className="titles">
         <h2>Contact me</h2>
       </div>

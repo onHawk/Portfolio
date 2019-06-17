@@ -17,17 +17,11 @@ import {
 
 const IndexPage = () => (
   <Layout>
-    <div style={{ backgroundColor: '#333333' }} className="sections">
-      <About />
-    </div>
+    <About />
 
-    <div className="sections">
-      <Projects />
-    </div>
+    <Projects />
 
-    <div style={{ backgroundColor: '#333333' }} className="sections">
-      <Contact />
-    </div>
+    <Contact />
 
     <footer className="foot">
       <Row style={{ margin: '0' }}>

@@ -4,7 +4,7 @@ import { Container } from 'reactstrap'
 
 const About = () => {
   return (
-    <div id="about">
+    <div id="about" className="sections">
       <div className="titles">
         <h2>About me</h2>
       </div>
