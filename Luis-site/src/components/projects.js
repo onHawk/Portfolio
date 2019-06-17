@@ -69,7 +69,7 @@ const Projects = () => {
               <GoCode />
             </a>
             <a
-              href="l-notes.netlify.com"
+              href="https://l-notes.netlify.com"
               target="_blank"
               rel="noopener noreferrer"
             >
