@@ -6,19 +6,16 @@
   margin: 0 auto;
   padding: 1rem;
   text-align: left;
-  width: 100%;
-  // background-color: #2ec4ff0a;
+  width: fit-content;
   border-radius: 4px 4px 0 0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  color: red;
   margin-bottom: 1rem;
+  background-color: #ffffff85;
 
   h2 {
-    border-bottom: 2px solid #5fb7ffb2;
     margin: 1rem auto;
     padding: 1rem;
     width: fit-content;
-    color: #f0f0f0;
+    color: #333333;
     font-weight: 100;
     font-family: Roboto, sans-serif;
     font-size: 3rem;
@@ -30,9 +27,8 @@
 }
 
 .sections {
-  padding: 2rem 0;
-  border-bottom: 20px solid #f0f0f00e;
-  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.16), 0px -2px 6px rgba(0, 0, 0, 0.23);
+  padding-top: 2rem;
+  margin-top: 1rem;
 }
 /********** About section styles **********/
 #about {
@@ -50,16 +46,17 @@
   background-image: url('../images/IMG_20180829_130103.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .text_container {
-  color: #f0f0f0;
+  color: #333333;
   height: 100%;
   font-weight: bold;
   width: 100%;
   display: flex;
   flex-flow: column;
-  border: 1px solid #333333;
+
   border-radius: 3px;
 
   @media (max-width: 768px) {
@@ -74,9 +71,9 @@
     text-align: center;
     padding: 1rem;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 300;
     font-family: Calibri, Arial, sans-serif;
-
+    background-color: #ffffff85;
     @media (max-width: 768px) {
       border-left: none;
       width: 90%;
@@ -91,8 +88,7 @@
 /********** Projects section **********/
 #projects {
   height: auto;
-  background-color: #333333;
-  width: 100%;
+  width: 95%;
   display: flex;
   flex-flow: column;
   margin: 0 auto;
@@ -100,17 +96,7 @@
   border-radius: 4px;
   transition: 0.5s;
 
-  &:hover {
-    transition: all 0.5s;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-
-    // padding: 10px;
-    width: 95%;
-  }
-  @media (max-width: 860px) {
-    pointer-events: none;
-  }
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     margin: 0;
     width: 100%;
   }
@@ -146,7 +132,6 @@
   font-size: 2rem;
   border-radius: 5px 0 0 5px;
   border: 2px solid #333333;
-  z-index: 1;
 
   &:hover {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -253,39 +238,45 @@
 
 #contact {
   height: 100%;
-  padding: 0;
+  margin-bottom: 3rem;
   width: 100%;
 }
 
 .form {
-  margin: 5px auto;
-  border-radius: 2px;
-  width: 83%;
+  margin: 0 auto;
+  padding: 5rem 0;
+  border-radius: 3px;
+  width: 50%;
+  background-color: #333333f8;
+  min-height: 450px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 
-  @media (max-width: 768px) {
+  @media (max-width: 1500px) {
     width: 100%;
   }
   label {
-    font-size: 24px;
+    width: fit-content;
+    font-size: 20px;
     font-weight: 300;
     font-family: Roboto, 'sans-serif';
-    margin: 10px;
+    margin: 10px 0;
     color: #f0f0f0;
   }
   &-groups {
-    height: 22vh;
     padding: 2rem !important;
     display: flex;
     flex-flow: column;
-    background-color: #333333;
+    width: 300px;
     input {
       outline: none;
-      width: 80%;
+      margin: 0 auto;
+      width: 100%;
       padding: 10px;
       border-radius: 3px;
       color: #f0f0f0;
-      background-color: #3f3f3f;
-      border: 1px solid #333333;
+      background-color: #414141;
+      border: 1px solid #1495ff;
+      font-size: 16px;
       @media (max-width: 768px) {
         width: 100%;
       }
@@ -294,12 +285,12 @@
 
   &-button {
     margin: 1rem auto;
-    width: 150px;
+    width: 130px;
     padding: 10px;
     background-color: #333333;
     border: none;
-    border-radius: 3px;
-    border: 2px solid #5fb7ffb2;
+    border-radius: 5px;
+    border: 1px solid #1495ff;
     cursor: pointer;
     transition: ease-in 0.3s all;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -309,29 +300,39 @@
     }
   }
 }
+.row_container {
+  margin: 0 auto !important;
+  width: 80%;
+  @media (max-width: 450px) {
+    width: 100%;
+  }
+}
 
 #messagefield {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  padding: 2rem;
-  background-color: #333333;
-  height: 50vh;
+  padding: 0 2rem;
+  margin-top: 1rem;
+  label {
+    align-self: flex-start;
+    margin: 10px 0;
+  }
 
   textarea {
     margin-bottom: 2rem;
+    width: 100%;
     padding: 1rem;
-    height: 60%;
-    width: 70%;
+    min-height: 40%;
     resize: none;
     align-self: center;
     outline: none;
     background-color: transparent;
     border-radius: 3px;
-    border: 1px solid #333333;
+    border: 1px solid #1495ff;
     color: #f0f0f0;
-    background-color: #3f3f3f;
-
+    background-color: #414141;
+    font-size: 16px;
     @media (max-width: 768px) {
       width: 100%;
     }
@@ -367,6 +368,7 @@
   display: flex;
   flex-flow: column;
   text-align: center;
+  border-top: 2px solid #333333;
 
   &-links {
     height: inherit;
