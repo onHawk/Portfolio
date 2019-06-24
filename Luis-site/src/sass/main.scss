@@ -104,107 +104,122 @@
 
 .grid {
   display: flex;
-  justify-content: center;
-  margin: 5px auto !important;
+  justify-content: space-around;
   transition: all 0.5s;
-  width: 95%;
+  max-width: 98%;
 
   @media (max-width: 768px) {
     margin: 0 auto !important;
   }
-  @media (max-width: 414px) {
-    // width: 100%;
+}
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
 .p {
+  display: flex;
+  flex-flow: column;
+  height: 450px;
+  min-height: 300px;
+  padding: 0 !important;
+  margin: 10px;
+  border-radius: 3px;
+  transition: 0.4s;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  height: 40vh;
-  min-height: 300px;
-  padding: 0 !important;
-  width: 350px;
-  min-width: 350px;
-  margin-right: 0;
-  font-size: 2rem;
-  border-radius: 5px 0 0 5px;
-  border: 2px solid #333333;
+  // &-name {
+  //   display: flex;
+  //   flex-flow: column;
+  //   justify-content: space-around;
+  //   transition: 0.3s;
+  //   height: 100%;
+  //   text-align: center;
+  //   color: #f0f0f0;
+  //   border-radius: 4px;
 
-  &:hover {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  }
+  //   -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1)
+  //     both;
+  //   animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 
-  @media (max-width: 767px) {
-    border-radius: 5px 5px 0 0;
-  }
+  //   &:hover {
+  //     // background-color: #4747479d;
+  //     transition: 0.3s ease-in;
+  //     color: #f0f0f0;
+  //   }
 
-  &-name {
-    transition: 0.3s;
-    height: 100%;
-    text-align: center;
-    color: #333333;
-    background-color: #f0f0f0be;
-    &:hover {
-      background-color: #4747479d;
-      color: #f0f0f0;
-      transition: 0.3s ease-in;
-      // height: 100%;
-    }
+  //   h1 {
+  //     font-weight: 400;
+  //     font-family: Roboto, 'sans';
+  //     font-size: 2rem;
+  //     padding-top: 20px;
+  //     padding-bottom: 10px;
+  //     margin-bottom: 20px;
+  //   }
 
-    h1 {
-      font-weight: 400;
-      font-family: Roboto, 'sans';
-      font-size: 2rem;
-      // width: 95%;
-      padding-top: 20px;
-      padding-bottom: 10px;
-      margin-bottom: 20px;
-    }
+  //   p {
+  //     margin: 10px auto 0 auto;
 
-    p {
-      margin: 10px auto 0 auto;
-      min-width: 320px;
-      position: absolute;
-      padding: 0 15px;
-      font-weight: 400;
-      font-size: 16px;
-    }
-  }
+  //     padding: 0 15px;
+  //     font-weight: 400;
+  //     font-size: 14px;
+  //   }
+  // }
 }
 .details {
-  text-align: right;
-  margin: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  text-align: center;
+  margin: 10px;
   padding: 0 !important;
-  background-color: #333333;
-  max-width: 100px !important;
-  // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-size: 14px;
+
   border-radius: 0 5px 5px 0;
-  // border-right: 3px solid #f0f0f0;
   @media (max-width: 768px) {
     z-index: 0;
     border-radius: 0 0 5px 5px;
   }
 
   &-links {
-    height: 100%;
+    // height: 100%;
     text-align: center;
     display: flex;
-    flex-flow: column;
+    padding: 5px;
     justify-content: space-around;
-    font-size: 2rem;
     transition: 0.4s;
     a {
       width: fit-content;
-      color: #f0f0f0;
+      color: #333333;
       align-self: center;
       transition: 0.4s;
       font-size: 30px;
 
       &:hover {
-        color: #75ff19de;
+        color: #16bd00de;
       }
     }
     @media (max-width: 768px) {
@@ -219,8 +234,6 @@
 /**** GiveMeMyMoney ****/
 #gmmm {
   background-image: url('../images/Capture.png');
-
-  // filter: blur(5px);
 }
 /**** Lambda Notes ****/
 #lambdanotes {
