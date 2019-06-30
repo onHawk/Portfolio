@@ -10,11 +10,14 @@ const Projects = () => {
       <div className="titles">
         <h2>My Portfolio</h2>
       </div>
-      <Row className="grid project-section">
+      <Row
+        className="grid project-section"
+        style={{ backgroundColor: 'beige' }}
+      >
         <Col xl="3" l="5" md="5" className="p project-image" id="gmmm" />
 
         <Col md="4" className="details">
-          <h4 style={{ padding: '5px' }}>GiveMeMyMoney</h4>
+          <h4 style={{ padding: '5px', color: '#e86c62' }}>GiveMeMyMoney</h4>
           <p>
             Web app built in React frontend and Node and Mongodb backend. Aimed
             to streamline invoice sending and organization. I built this as part
@@ -42,7 +45,7 @@ const Projects = () => {
         </Col>
       </Row>
 
-      <Row className="grid project-section">
+      {/* <Row className="grid project-section" style={{ margin: '0' }}>
         <Col xl="3" l="5" md="5" className="p project-image" id="lambdanotes" />
 
         <Col md="4" className="details">
@@ -67,20 +70,24 @@ const Projects = () => {
             </a>
           </div>
         </Col>
-      </Row>
+      </Row> */}
 
-      <Row className="grid project-section">
+      <Row
+        className="grid project-section"
+        style={{ backgroundColor: '#333333' }}
+      >
         <Col xl="3" l="5" md="5" className="p project-image" id="chronicle" />
 
         <Col md="4" className="details">
-          <h4>Memory Chronicles</h4>
-          <p>
+          <h4 style={{ color: '#a2daff' }}>Memory Chronicles</h4>
+          <p style={{ color: '#f0f0f0' }}>
             Journal app built in React frontend, Node and MongoDB backend.I
             aimed to have it be as straight forward as possible without
             convoluting the task of journaling.
           </p>
           <div className="details-links">
             <a
+              style={{ color: '#f0f0f0' }}
               href="https://github.com/Luisdh/Memory"
               target="_blank"
               rel="noopener noreferrer"
@@ -88,6 +95,7 @@ const Projects = () => {
               <GoCode />
             </a>
             <a
+              style={{ color: '#f0f0f0' }}
               href="https://chronicle-memory.herokuapp.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -98,7 +106,10 @@ const Projects = () => {
         </Col>
       </Row>
 
-      <Row className="grid project-section">
+      <Row
+        className="grid project-section"
+        style={{ backgroundColor: '#2c99ff' }}
+      >
         <Col xl="3" md="5" className="p project-image" id="quicknews" />
 
         <Col md="4" className="details">
