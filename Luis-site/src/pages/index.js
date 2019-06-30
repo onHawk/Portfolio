@@ -25,7 +25,7 @@ const IndexPage = () => (
 
     <footer className="foot">
       <Row style={{ margin: '0' }}>
-        <Col xl="4" md="6" className="myinfo">
+        <Col xl="4" md="6" className="myinfo" style={{ borderLeft: '1px solid #333333' }}>
           <FaAddressCard size="34px" />
           <p> 770.778.9995 </p>
         </Col>
@@ -53,7 +53,7 @@ const IndexPage = () => (
 
       <Row style={{ height: '60px', margin: '0' }}>
         <Col className="foot-links">
-          <p style={{ margin: '9px', color: '#5fa5ff73' }}>
+          <p style={{ margin: '9px', color: 'white' }}>
             © {new Date().getFullYear()}
           </p>
         </Col>

@@ -10,8 +10,8 @@ const Projects = () => {
       <div className="titles">
         <h2>My Portfolio</h2>
       </div>
-      <Row className="grid">
-        <Col xl="3" l="5" md="5" className="p" id="gmmm" />
+      <Row className="grid project-section">
+        <Col xl="3" l="5" md="5" className="p project-image" id="gmmm" />
 
         <Col md="4" className="details">
           <h4 style={{ padding: '5px' }}>GiveMeMyMoney</h4>
@@ -42,8 +42,8 @@ const Projects = () => {
         </Col>
       </Row>
 
-      <Row className="grid">
-        <Col xl="3" l="5" md="5" className="p" id="lambdanotes" />
+      <Row className="grid project-section">
+        <Col xl="3" l="5" md="5" className="p project-image" id="lambdanotes" />
 
         <Col md="4" className="details">
           <h4>Lambda Notes</h4>
@@ -69,8 +69,8 @@ const Projects = () => {
         </Col>
       </Row>
 
-      <Row className="grid">
-        <Col xl="3" l="5" md="5" className="p" id="chronicle" />
+      <Row className="grid project-section">
+        <Col xl="3" l="5" md="5" className="p project-image" id="chronicle" />
 
         <Col md="4" className="details">
           <h4>Memory Chronicles</h4>
@@ -98,8 +98,8 @@ const Projects = () => {
         </Col>
       </Row>
 
-      <Row className="grid">
-        <Col xl="3" md="5" className="p" id="quicknews" />
+      <Row className="grid project-section">
+        <Col xl="3" md="5" className="p project-image" id="quicknews" />
 
         <Col md="4" className="details">
           <h4 style={{ color: '#333333' }}>Quicknews</h4>
