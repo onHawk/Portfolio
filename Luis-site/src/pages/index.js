@@ -25,8 +25,13 @@ const IndexPage = () => (
 
     <footer className="foot">
       <Row style={{ margin: '0' }}>
-        <Col xl="4" md="6" className="myinfo" style={{ borderLeft: '1px solid #333333' }}>
-          <FaAddressCard size="34px" />
+        <Col
+          xl="4"
+          md="6"
+          className="myinfo"
+          style={{ borderLeft: '1px solid #333333' }}
+        >
+          <FaAddressCard size="30px" />
           <p> 770.778.9995 </p>
         </Col>
 
@@ -36,7 +41,7 @@ const IndexPage = () => (
           className="myinfo"
           style={{ borderLeft: '1px solid #333333' }}
         >
-          <FaEnvelope size="34px" />
+          <FaEnvelope size="30px" />
           <a href="mailto:luisd824@gmail.com">luisd824@gmail.com</a>
         </Col>
 
@@ -46,7 +51,7 @@ const IndexPage = () => (
           className="myinfo"
           style={{ borderLeft: '1px solid #333333' }}
         >
-          <FaGlobe size="34px" />
+          <FaGlobe size="30px" />
           <p>Atlanta Area, GA</p>
         </Col>
       </Row>
@@ -64,7 +69,7 @@ const IndexPage = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub size="34" />
+            <FaGithub size="30px" />
           </a>
         </Col>
 
@@ -74,7 +79,7 @@ const IndexPage = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin size="34" />
+            <FaLinkedin size="30px" />
           </a>
         </Col>
       </Row>
