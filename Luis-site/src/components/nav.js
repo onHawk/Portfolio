@@ -19,7 +19,7 @@ const Nav = () => {
         </a>
 
         <a
-          href="https://drive.google.com/file/d/1hC5dVPQybFsrztVu0Z08WJvRi14LW_d_/view?usp=sharing"
+          href="https://drive.google.com/file/d/14B9AQ7ZZBL4bnsifXvQD-oE4aRlJZ2qt/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-i"
