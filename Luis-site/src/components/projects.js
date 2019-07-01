@@ -10,127 +10,171 @@ const Projects = () => {
       <div className="titles">
         <h2>My Portfolio</h2>
       </div>
-      <Row
-        className="grid project-section"
-        style={{ backgroundColor: 'beige' }}
-      >
+      <Row className="grid project-section">
         <Col xl="3" l="5" md="5" className="p project-image" id="gmmm" />
 
-        <Col md="4" className="details">
-          <h4 style={{ padding: '5px', color: '#e86c62' }}>GiveMeMyMoney</h4>
-          <p>
-            Web app built in React frontend and Node and Mongodb backend. Aimed
-            to streamline invoice sending and organization. I built this as part
-            of a team where I handled the reminder feature to send either a sms
-            or email message to let a client know when an invoice is due.
-          </p>
+        <Col md="6" className="details" style={{ backgroundColor: '#f5f5dc' }}>
+          <div
+            style={{
+              height: '50%',
+              display: 'flex',
+              flexFlow: 'column',
+              justifyContent: 'space-around',
+              padding: '15px',
+            }}
+          >
+            <h4 style={{ color: '#e86c62' }}>GiveMeMyMoney</h4>
+            <p>
+              Streamline the process of sending invoices and receiving money
+              from clients with GiveMeMyMoney. Built using React.js on the
+              frontend, and Node.js and MongoDB on the backend. Integrates with
+              the Stripe API for handling payments.
+              <br />
+              <br /> As part of the team that built this project, I handled the
+              reminders feature, which sends either an SMS or an email to
+              clients letting them know when an invoice is due and how to pay it
+              using Stripe.
+            </p>
 
-          <div className="details-links">
-            <a
-              href="https://github.com/Lambda-School-Labs/CS8-payme"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GoCode />
-            </a>
+            <div className="details-links">
+              <a
+                href="https://github.com/Lambda-School-Labs/CS8-payme"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GoCode />
+              </a>
 
-            <a
-              href="https://www.givememymoney.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GoDeviceDesktop />
-            </a>
+              <a
+                href="https://www.givememymoney.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GoDeviceDesktop />
+              </a>
+            </div>
           </div>
         </Col>
       </Row>
 
-      {/* <Row className="grid project-section" style={{ margin: '0' }}>
+      <Row className="grid project-section">
         <Col xl="3" l="5" md="5" className="p project-image" id="lambdanotes" />
 
-        <Col md="4" className="details">
-          <h4>Lambda Notes</h4>
-          <p>
-            A note taking app built in React frontend, Node and MongoDB backend.
-          </p>
-          <div className="details-links">
-            <a
-              href="https://github.com/Luisdh/front-end-project-week"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GoCode />
-            </a>
-            <a
-              href="https://l-notes.netlify.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GoDeviceDesktop />
-            </a>
-          </div>
-        </Col>
-      </Row> */}
-
-      <Row
-        className="grid project-section"
-        style={{ backgroundColor: '#333333' }}
-      >
-        <Col xl="3" l="5" md="5" className="p project-image" id="chronicle" />
-
-        <Col md="4" className="details">
-          <h4 style={{ color: '#a2daff' }}>Memory Chronicles</h4>
-          <p style={{ color: '#f0f0f0' }}>
-            Journal app built in React frontend, Node and MongoDB backend.I
-            aimed to have it be as straight forward as possible without
-            convoluting the task of journaling.
-          </p>
-          <div className="details-links">
-            <a
-              style={{ color: '#f0f0f0' }}
-              href="https://github.com/Luisdh/Memory"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GoCode />
-            </a>
-            <a
-              style={{ color: '#f0f0f0' }}
-              href="https://chronicle-memory.herokuapp.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GoDeviceDesktop />
-            </a>
+        <Col
+          md="6"
+          className="details"
+          style={{ margin: '0', backgroundColor: '#bb1333' }}
+        >
+          <div
+            style={{
+              height: '50%',
+              display: 'flex',
+              flexFlow: 'column',
+              justifyContent: 'space-around',
+              padding: '15px',
+            }}
+          >
+            <h4 style={{ color: '#f0f0f0' }}>Lambda Notes</h4>
+            <p>
+              An app that I built for taking notes during my Lambda School
+              classes. Built using React.js on the frontend, and Node.js and
+              MongoDB on the backend.
+            </p>
+            <div className="details-links">
+              <a
+                href="https://github.com/Luisdh/front-end-project-week"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GoCode />
+              </a>
+              <a
+                href="https://l-notes.netlify.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GoDeviceDesktop />
+              </a>
+            </div>
           </div>
         </Col>
       </Row>
 
-      <Row
-        className="grid project-section"
-        style={{ backgroundColor: '#2c99ff' }}
-      >
+      <Row className="grid project-section">
+        <Col xl="3" l="5" md="5" className="p project-image" id="chronicle" />
+
+        <Col md="6" className="details" style={{ backgroundColor: ' #faf7f0' }}>
+          <div
+            style={{
+              height: '50%',
+              display: 'flex',
+              flexFlow: 'column',
+              justifyContent: 'space-around',
+              padding: '15px',
+            }}
+          >
+            <h4 style={{ color: '#a2daff' }}>Memory Chronicles</h4>
+            <p style={{ color: '#333333' }}>
+              Simple & easy to use journaling web app built using React.js on
+              the frontend, and Node.js and MongoDB on the backend.
+              <br />
+              <br /> This is one of my personal ongoing projects. Will also be
+              released soon as a mobile app on iOS and Android.
+            </p>
+            <div className="details-links">
+              <a
+                href="https://github.com/Luisdh/Memory"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GoCode />
+              </a>
+              <a
+                href="https://chronicle-memory.herokuapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GoDeviceDesktop />
+              </a>
+            </div>
+          </div>
+        </Col>
+      </Row>
+
+      <Row className="grid project-section">
         <Col xl="3" md="5" className="p project-image" id="quicknews" />
 
-        <Col md="4" className="details">
-          <h4 style={{ color: '#333333' }}>Quicknews</h4>
-          <p>
-            News browsing mobile app I made in React-Native as a way to learn
-            more about it. I used the News api from{' '}
-            <span style={{ color: 'green', fontWeight: 'bold' }}>
-              newsapi.org
-            </span>
-            . It grabs top headlines given a news outlet or a topic category.
-            Apk is available.
-          </p>
-          <div className="details-links">
-            <a
-              href="https://github.com/Luisdh/quicknews"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GoCode />
-            </a>
+        <Col
+          md="6"
+          className="details"
+          style={{
+            backgroundColor: '#2c99ff',
+          }}
+        >
+          <div
+            style={{
+              height: '50%',
+              display: 'flex',
+              flexFlow: 'column',
+              justifyContent: 'space-around',
+              padding: '15px',
+            }}
+          >
+            <h4>Quicknews</h4>
+            <p>
+              Mobile app for browsing the news, sourced from newsapi.org. Built
+              using React Native and released on Android. Soon to be released on
+              iOS.
+            </p>
+            <div className="details-links">
+              <a
+                href="https://github.com/Luisdh/quicknews"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GoCode />
+              </a>
+            </div>
           </div>
         </Col>
       </Row>
