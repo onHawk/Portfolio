@@ -145,6 +145,13 @@
       font-size: 12px;
     }
   }
+  &-body {
+    height: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    padding: 15px;
+  }
 
   &-links {
     display: flex;

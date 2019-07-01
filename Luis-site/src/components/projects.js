@@ -14,15 +14,7 @@ const Projects = () => {
         <Col xl="3" l="5" md="5" className="p project-image" id="gmmm" />
 
         <Col md="6" className="details" style={{ backgroundColor: '#f5f5dc' }}>
-          <div
-            style={{
-              height: '50%',
-              display: 'flex',
-              flexFlow: 'column',
-              justifyContent: 'space-around',
-              padding: '15px',
-            }}
-          >
+          <div className="details-body">
             <h4 style={{ color: '#e86c62' }}>GiveMeMyMoney</h4>
             <p>
               Streamline the process of sending invoices and receiving money
@@ -65,15 +57,7 @@ const Projects = () => {
           className="details"
           style={{ margin: '0', backgroundColor: '#bb1333' }}
         >
-          <div
-            style={{
-              height: '50%',
-              display: 'flex',
-              flexFlow: 'column',
-              justifyContent: 'space-around',
-              padding: '15px',
-            }}
-          >
+          <div className="details-body">
             <h4 style={{ color: '#f0f0f0' }}>Lambda Notes</h4>
             <p>
               An app that I built for taking notes during my Lambda School
@@ -104,15 +88,7 @@ const Projects = () => {
         <Col xl="3" l="5" md="5" className="p project-image" id="chronicle" />
 
         <Col md="6" className="details" style={{ backgroundColor: ' #faf7f0' }}>
-          <div
-            style={{
-              height: '50%',
-              display: 'flex',
-              flexFlow: 'column',
-              justifyContent: 'space-around',
-              padding: '15px',
-            }}
-          >
+          <div className="details-body">
             <h4 style={{ color: '#a2daff' }}>Memory Chronicles</h4>
             <p style={{ color: '#333333' }}>
               Simple & easy to use journaling web app built using React.js on
@@ -151,15 +127,7 @@ const Projects = () => {
             backgroundColor: '#2c99ff',
           }}
         >
-          <div
-            style={{
-              height: '50%',
-              display: 'flex',
-              flexFlow: 'column',
-              justifyContent: 'space-around',
-              padding: '15px',
-            }}
-          >
+          <div className="details-body">
             <h4>Quicknews</h4>
             <p>
               Mobile app for browsing the news, sourced from newsapi.org. Built
