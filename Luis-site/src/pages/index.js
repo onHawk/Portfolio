@@ -24,38 +24,6 @@ const IndexPage = () => (
     <Contact />
 
     <footer className="foot">
-      <Row style={{ margin: '0' }}>
-        <Col
-          xl="4"
-          md="6"
-          className="myinfo"
-          style={{ borderLeft: '1px solid #333333' }}
-        >
-          <FaAddressCard size="30px" />
-          <p> 770.778.9995 </p>
-        </Col>
-
-        <Col
-          xl="4"
-          md="6"
-          className="myinfo"
-          style={{ borderLeft: '1px solid #333333' }}
-        >
-          <FaEnvelope size="30px" />
-          <a href="mailto:luisd824@gmail.com">luisd824@gmail.com</a>
-        </Col>
-
-        <Col
-          xl="4"
-          md="12"
-          className="myinfo"
-          style={{ borderLeft: '1px solid #333333' }}
-        >
-          <FaGlobe size="30px" />
-          <p>Atlanta Area, GA</p>
-        </Col>
-      </Row>
-
       <Row style={{ height: '60px', margin: '0' }}>
         <Col className="foot-links">
           <p style={{ margin: '9px', color: 'white' }}>
