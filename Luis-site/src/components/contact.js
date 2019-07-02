@@ -15,8 +15,9 @@ const Contact = () => {
   return (
     <div id="contact" className="sections">
       <div className="titles">
-        <h2>Contact me</h2>
+        <h2 style={{ color: '#f0f0f0' }}>Contact me</h2>
       </div>
+
       <div className="contact_container">
         <form
           name="contact"
@@ -36,11 +37,12 @@ const Contact = () => {
               <input name="email" type="email" placeholder="your email" />
             </Col>
           </Row>
+
           {/* <div data-netlify-recaptcha="true"></div> */}
           <Row className="row_container">
             <Col id="messagefield">
               <label>Message</label>
-              <textarea name="message" />
+              <textarea name="message" placeholder="write something" />
               <button className="form-button" type="submit">
                 Send
               </button>
