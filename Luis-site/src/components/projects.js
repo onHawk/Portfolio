@@ -38,7 +38,7 @@ const Projects = () => {
               </a>
 
               <a
-                href="https://www.givememymoney.app"
+                href="http://givememymoney.herokuapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
