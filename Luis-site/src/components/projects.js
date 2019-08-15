@@ -10,10 +10,13 @@ const Projects = () => {
       <div className="titles">
         <h2>My Portfolio</h2>
       </div>
-      <Row className="grid project-section">
+      <Row
+        className="grid project-section"
+        style={{ backgroundColor: '#f5f5dc' }}
+      >
         <Col className="p project-image" id="gmmm" />
 
-        <Col md="6" className="details" style={{ backgroundColor: '#f5f5dc' }}>
+        <Col md="6" className="details">
           <div className="details-body">
             <h4 style={{ color: '#e86c62' }}>GiveMeMyMoney</h4>
             <p>
@@ -84,10 +87,13 @@ const Projects = () => {
         </Col>
       </Row> */}
 
-      <Row className="grid project-section">
+      <Row
+        className="grid project-section"
+        style={{ backgroundColor: '#faf7f0' }}
+      >
         <Col className="p project-image" id="chronicle" />
 
-        <Col md="6" className="details" style={{ backgroundColor: ' #faf7f0' }}>
+        <Col md="6" className="details">
           <div className="details-body">
             <h4 style={{ color: '#a2daff' }}>Memory Chronicles</h4>
             <p style={{ color: '#333333' }}>
@@ -117,16 +123,15 @@ const Projects = () => {
         </Col>
       </Row>
 
-      <Row className="grid project-section">
-        <Col  className="p project-image" id="quicknews" />
+      <Row
+        className="grid project-section"
+        style={{
+          backgroundColor: '#2c99ff',
+        }}
+      >
+        <Col className="p project-image" id="quicknews" />
 
-        <Col
-          md="6"
-          className="details"
-          style={{
-            backgroundColor: '#2c99ff',
-          }}
-        >
+        <Col md="6" className="details">
           <div className="details-body">
             <h4>Quicknews</h4>
             <p>
