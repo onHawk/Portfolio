@@ -49,7 +49,7 @@ const Projects = () => {
         </Col>
       </Row>
 
-      <Row className="grid project-section">
+      {/* <Row className="grid project-section">
         <Col xl="3" l="5" md="5" className="p project-image" id="lambdanotes" />
 
         <Col
@@ -82,7 +82,7 @@ const Projects = () => {
             </div>
           </div>
         </Col>
-      </Row>
+      </Row> */}
 
       <Row className="grid project-section">
         <Col xl="3" l="5" md="5" className="p project-image" id="chronicle" />
