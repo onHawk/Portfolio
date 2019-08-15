@@ -11,7 +11,7 @@ const Projects = () => {
         <h2>My Portfolio</h2>
       </div>
       <Row className="grid project-section">
-        <Col xl="3" l="5" md="5" className="p project-image" id="gmmm" />
+        <Col className="p project-image" id="gmmm" />
 
         <Col md="6" className="details" style={{ backgroundColor: '#f5f5dc' }}>
           <div className="details-body">
@@ -85,7 +85,7 @@ const Projects = () => {
       </Row> */}
 
       <Row className="grid project-section">
-        <Col xl="3" l="5" md="5" className="p project-image" id="chronicle" />
+        <Col className="p project-image" id="chronicle" />
 
         <Col md="6" className="details" style={{ backgroundColor: ' #faf7f0' }}>
           <div className="details-body">
@@ -118,7 +118,7 @@ const Projects = () => {
       </Row>
 
       <Row className="grid project-section">
-        <Col xl="3" md="5" className="p project-image" id="quicknews" />
+        <Col  className="p project-image" id="quicknews" />
 
         <Col
           md="6"
