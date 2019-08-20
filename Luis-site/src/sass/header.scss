@@ -1,15 +1,3 @@
-@-webkit-keyframes fade-in-bottom {
-  0% {
-    -webkit-transform: translateY(50px);
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 @keyframes fade-in-bottom {
   0% {
     -webkit-transform: translateY(50px);
@@ -23,24 +11,37 @@
   }
 }
 
+@keyframes slidefromleft {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .header {
   min-height: 90vh;
 
   display: flex;
   flex-flow: column wrap;
   // justify-content: flex-end;
-  background-image: url('../images/ancient-architecture.jpg');
+  // background-image: url('../images/ancient-architecture.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
-  -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1)
-    both;
-  animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  // -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1)
+  //   both;
+  // animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 #intro {
   padding: 0 3rem;
   margin-top: 5rem;
+  position: absolute;
+  height: 50vh;
 
   @media (max-width: 768px) {
     padding: 1rem;
@@ -51,11 +52,13 @@
     }
   }
   h1 {
+    font-size: 5rem;
     font-weight: 200;
     font-family: Roboto, sans-serif;
     color: #333333;
   }
   p {
+    animation: slidefromleft 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     padding: 0 5px;
     font-weight: 400;
     font-family: Roboto, sans-serif;
