@@ -12,8 +12,8 @@
 }
 @keyframes fade-in-bottom {
   0% {
-    -webkit-transform: translateY(50px);
-    transform: translateY(50px);
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
     opacity: 0;
   }
   100% {
@@ -34,7 +34,7 @@
 
   display: flex;
   justify-content: flex-start;
-  animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  transition: ease-in 0.5s box-shadow;
 }
 
 .nav {
@@ -51,6 +51,7 @@
   }
 
   &-i {
+    animation: fade-in-bottom 0.6s;
     text-align: center;
     color: #f0f0f0;
     width: 20%;
@@ -60,6 +61,7 @@
     font-family: Roboto, 'sans-serif';
     font-weight: 200;
     text-decoration: none !important;
+    transition: ease-in all;
 
     &:hover {
       background-color: #f0f0f02d;
