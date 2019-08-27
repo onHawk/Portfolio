@@ -31,21 +31,23 @@
 }
 
 .header {
-  min-height: 90vh;
+  min-height: 100vh;
 
   display: flex;
-  flex-flow: column wrap;
-  // justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  // flex-flow: column wrap;
+  // justify-content: center;
   // background-image: url('../images/ancient-architecture.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
 }
 #intro {
   padding: 0 3rem;
-  margin-top: 5rem;
-  position: absolute;
-  height: 50vh;
+  // margin-top: 5rem;
+  // position: absolute;
+  // height: 50vh;
   transition: 0.4s all;
 
   @media (max-width: 768px) {
@@ -68,7 +70,7 @@
     font-weight: 400;
     font-family: Roboto, sans-serif;
     margin: 0.5rem 0;
-    color: #00ff41;
+    color: #7ed8ff;
     // color: #0176d6;
   }
 }
