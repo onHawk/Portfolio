@@ -7,15 +7,15 @@ const Nav = () => {
     <div className="bar">
       <ul className="nav">
         <a className="nav-i" href="#about">
-          <li>About</li>
+          <li className="nav-anim">About</li>
         </a>
 
         <a className="nav-i" href="#projects">
-          <li>Portfolio</li>
+          <li className="nav-anim">Portfolio</li>
         </a>
 
         <a className="nav-i" href="#contact">
-          <li>Contact</li>
+          <li className="nav-anim">Contact</li>
         </a>
 
         <a
@@ -24,7 +24,7 @@ const Nav = () => {
           rel="noopener noreferrer"
           className="nav-i"
         >
-          <li>Resume</li>
+          <li className="nav-anim">Resume</li>
         </a>
       </ul>
     </div>
