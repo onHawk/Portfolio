@@ -35,6 +35,7 @@
 }
 
 .nav {
+  height: inherit;
   display: flex;
   width: 80%;
 
@@ -42,9 +43,12 @@
     justify-content: space-around;
     width: 100%;
   }
+
   li {
+    height: fit-content;
     text-decoration: none;
     margin: 0;
+    text-align: baseline;
   }
 
   &-i {
@@ -56,7 +60,7 @@
     font-family: Roboto, 'sans-serif';
     font-weight: 200;
     text-decoration: none !important;
-
+    font-size: 16px;
     transition: 0.5s all;
 
     &:hover {
