@@ -7,15 +7,21 @@ const Nav = () => {
     <div className="bar">
       <ul className="nav">
         <a className="nav-i" href="#about">
-          <li className="nav-anim">About</li>
+          <li className="nav-anim" style={{ animationDelay: '0s' }}>
+            About
+          </li>
         </a>
 
         <a className="nav-i" href="#projects">
-          <li className="nav-anim">Portfolio</li>
+          <li className="nav-anim" style={{ animationDelay: '.1s' }}>
+            Portfolio
+          </li>
         </a>
 
         <a className="nav-i" href="#contact">
-          <li className="nav-anim">Contact</li>
+          <li className="nav-anim" style={{ animationDelay: '.2s' }}>
+            Contact
+          </li>
         </a>
 
         <a
@@ -24,7 +30,9 @@ const Nav = () => {
           rel="noopener noreferrer"
           className="nav-i"
         >
-          <li className="nav-anim">Resume</li>
+          <li className="nav-anim" style={{ animationDelay: '.3s' }}>
+            Resume
+          </li>
         </a>
       </ul>
     </div>
