@@ -64,8 +64,10 @@
     transition: 0.5s all;
 
     &:hover {
-      transition: 0.5s all;
+      transition: 0.5s;
       color: #7ed8ff;
+      border-left: 1px solid #7ed8ff;
+      border-right: 1px solid #7ed8ff;
       border-bottom: 1px solid #7ed8ff;
     }
   }
