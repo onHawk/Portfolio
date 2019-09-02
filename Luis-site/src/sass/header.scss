@@ -32,24 +32,23 @@
 
 .header {
   min-height: 100vh;
-
   display: flex;
-  align-content: center;
-  align-items: center;
-  // flex-flow: column wrap;
-  // justify-content: center;
+  flex-flow: column;
+  justify-content: center;
+  // align-items: flex-start;
   // background-image: url('../images/ancient-architecture.jpg');
   // background-position: center;
   // background-repeat: no-repeat;
   // background-size: cover;
 }
 #intro {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
   padding: 0 3rem;
-  // margin-top: 5rem;
-  // position: absolute;
-  // height: 50vh;
+  margin-bottom: 5rem;
   transition: 0.4s all;
-
+  height: 300px;
   @media (max-width: 768px) {
     padding: 1rem;
   }
@@ -63,14 +62,35 @@
     font-weight: 200;
     color: #f0f0f0;
     font-family: Roboto, sans-serif;
+    margin-bottom: 1rem;
   }
   p {
+    margin-top: 1rem;
     animation: slidefromleft 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     padding: 0 5px;
+    font-size: 18px;
     font-weight: 400;
     font-family: Roboto, sans-serif;
     margin: 0.5rem 0;
     color: #7ed8ff;
-    // color: #0176d6;
+    width: 400px;
+  }
+}
+
+.headerContact {
+  width: 120px;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: #f0f0f0;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #7ed8ff;
+  border-radius: 3px;
+  transition: 0.4s;
+  &:hover {
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #7ed8ffd2;
+    color: rgb(29, 35, 46);
   }
 }

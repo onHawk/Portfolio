@@ -8,7 +8,13 @@ const Header = ({ siteTitle }) => (
   <div className="header">
     <div id="intro">
       <h1 style={{ margin: 0 }}>{siteTitle}</h1>
-      <p>Full-Stack Software Engineer.</p>
+      <p>
+        Full-Stack Software Engineer <br /> looking to create the coolest
+        software.
+      </p>
+      <a href="mailto:luisd824@gmail.com" className="headerContact">
+        Contact
+      </a>
     </div>
   </div>
 )
