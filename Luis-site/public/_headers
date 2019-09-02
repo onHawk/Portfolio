@@ -4,19 +4,52 @@
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/component---node-modules-gatsby-plugin-offline-app-shell-js-cfaa233bb325309a2262.js
+  Cache-Control: public, max-age=31536000, immutable
+/commons.639f3e5cce7b0ba4d0e8.css
+  Cache-Control: public, max-age=31536000, immutable
+/commons-90776e31d2c05d218eae.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-404-js-d27ec63d3e78171eae4c.js
+  Cache-Control: public, max-age=31536000, immutable
+/styles.f8d43c6685c25da47ef0.css
+  Cache-Control: public, max-age=31536000, immutable
+/styles-5f8a88728c5df0665165.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-b4276c4067d51df111fa.js
+  Cache-Control: public, max-age=31536000, immutable
+/undefined
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-1fc037209a4db38ab95a.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-66fe92f721776ba1e00c.js
+  Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
 /offline-plugin-app-shell-fallback/
-  Link: </webpack-runtime-7aa98c184e43ac0990cf.js>; rel=preload; as=script
-  Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-a6eef192ed145d0e7fb0.js>; rel=preload; as=script
+  Link: </webpack-runtime-1fc037209a4db38ab95a.js>; rel=preload; as=script
+  Link: </commons-90776e31d2c05d218eae.js>; rel=preload; as=script
+  Link: </app-66fe92f721776ba1e00c.js>; rel=preload; as=script
+  Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-cfaa233bb325309a2262.js>; rel=preload; as=script
 /404/
-  Link: </webpack-runtime-7aa98c184e43ac0990cf.js>; rel=preload; as=script
-  Link: </0.21da6de41a54db84c5fe.css>; rel=preload; as=script
+  Link: </webpack-runtime-1fc037209a4db38ab95a.js>; rel=preload; as=script
+  Link: </commons-90776e31d2c05d218eae.js>; rel=preload; as=script
+  Link: </app-66fe92f721776ba1e00c.js>; rel=preload; as=script
+  Link: </commons-90776e31d2c05d218eae.js>; rel=preload; as=script
+  Link: </component---src-pages-404-js-d27ec63d3e78171eae4c.js>; rel=preload; as=script
 /
-  Link: </webpack-runtime-7aa98c184e43ac0990cf.js>; rel=preload; as=script
-  Link: </0.21da6de41a54db84c5fe.css>; rel=preload; as=script
+  Link: </webpack-runtime-1fc037209a4db38ab95a.js>; rel=preload; as=script
+  Link: </commons-90776e31d2c05d218eae.js>; rel=preload; as=script
+  Link: </app-66fe92f721776ba1e00c.js>; rel=preload; as=script
+  Link: </commons-90776e31d2c05d218eae.js>; rel=preload; as=script
+  Link: </styles-5f8a88728c5df0665165.js>; rel=preload; as=script
+  Link: </component---src-pages-index-js-b4276c4067d51df111fa.js>; rel=preload; as=script
 /404.html
-  Link: </webpack-runtime-7aa98c184e43ac0990cf.js>; rel=preload; as=script
-  Link: </0.21da6de41a54db84c5fe.css>; rel=preload; as=script
+  Link: </webpack-runtime-1fc037209a4db38ab95a.js>; rel=preload; as=script
+  Link: </commons-90776e31d2c05d218eae.js>; rel=preload; as=script
+  Link: </app-66fe92f721776ba1e00c.js>; rel=preload; as=script
+  Link: </commons-90776e31d2c05d218eae.js>; rel=preload; as=script
+  Link: </component---src-pages-404-js-d27ec63d3e78171eae4c.js>; rel=preload; as=script
