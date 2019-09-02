@@ -1,0 +1,54 @@
+/********** About section styles **********/
+#about {
+  min-height: 100vh;
+
+  @media (max-width: 415px) {
+    width: 100%;
+  }
+}
+#me {
+  border-radius: 50%;
+  margin: 2rem auto;
+  height: 300px;
+  width: 300px;
+  background-image: url('../images/IMG_20180829_130103.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.text_container {
+  color: #333333;
+  height: 100%;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+
+  border-radius: 3px;
+
+  @media (max-width: 768px) {
+    flex-flow: column;
+  }
+
+  p {
+    align-self: center;
+    line-height: 2em;
+    width: 60%;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Roboto, Calibiri, 'sans-serif';
+    color: #f0f0f0;
+    @media (max-width: 768px) {
+      border-left: none;
+      width: 90%;
+      margin: 0 auto;
+      padding: 1rem 0;
+      font-size: 16px;
+    }
+  }
+}
+/***************************************/
