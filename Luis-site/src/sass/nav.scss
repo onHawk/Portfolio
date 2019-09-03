@@ -20,6 +20,7 @@
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
+    color: #7ed8ff;
   }
 }
 
@@ -31,24 +32,23 @@
   width: 100%;
   z-index: 1;
   transition: 0.4s all;
-  height: 66px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav {
-  height: inherit;
+  width: 60%;
   display: flex;
-  width: 80%;
-
+  justify-content: flex-end;
   @media (max-width: 550px) {
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
   }
 
   li {
-    height: fit-content;
     text-decoration: none;
     margin: 0;
-    text-align: baseline;
   }
 
   &-i {
@@ -60,7 +60,7 @@
     font-family: Roboto, 'sans-serif';
     font-weight: 200;
     text-decoration: none !important;
-    font-size: 16px;
+    font-size: 15px;
     transition: 0.5s all;
 
     &:hover {
