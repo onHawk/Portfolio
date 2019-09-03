@@ -25,12 +25,12 @@
 
 .bar {
   background-color: rgb(29, 34, 44);
-  box-shadow: rgb(24, 31, 46) 0px 10px 20px -3px;
+  // box-shadow: rgb(24, 31, 46) 0px 10px 20px -3px;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
-  // transition: 0.4s all;
+  transition: 0.4s all;
   height: 66px;
 }
 
