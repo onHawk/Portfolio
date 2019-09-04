@@ -21,7 +21,7 @@ class Nav extends Component {
 
   render() {
     const { offSet } = this.state
-    console.log(this.state.offSet)
+    // console.log(this.state.offSet)
 
     return (
       <div
