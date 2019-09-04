@@ -153,6 +153,37 @@ const Projects = () => {
           </div>
         </Col>
       </Row>
+
+      <Row
+        className="grid project-section"
+        style={{
+          backgroundColor: '#2c99ff',
+        }}
+      >
+        <Col className="p project-image" id="neral" />
+
+        <Col md="6" className="details">
+          <div className="details-body">
+            <h4>Neral Social App</h4>
+            <p>
+              Create a community around a topic and post discussions where users
+              can subscribe and post anything to talk about and start a
+              discussion. <br />
+              Neral as a mobile app was created in a collaborative team using
+              React Native.
+            </p>
+            <div className="details-links">
+              <a
+                href="https://github.com/labsce1-social-app/Lambda-Social-App"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GoCode />
+              </a>
+            </div>
+          </div>
+        </Col>
+      </Row>
     </div>
   )
 }
