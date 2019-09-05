@@ -5,14 +5,14 @@ import About from '../components/about'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
 
-import { Container, Row, Col } from 'reactstrap'
+import { Row, Col } from 'reactstrap'
 import {
   FaGithub,
   FaLinkedin,
-  FaMobileAlt,
-  FaAddressCard,
-  FaEnvelope,
-  FaGlobe,
+  // FaMobileAlt,
+  // FaAddressCard,
+  // FaEnvelope,
+  // FaGlobe,
 } from 'react-icons/fa'
 
 import posed from 'react-pose'

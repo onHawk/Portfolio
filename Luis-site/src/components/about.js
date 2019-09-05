@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../sass/about.scss'
 
-import { Container } from 'reactstrap'
+// import { Container } from 'reactstrap'
 
 const About = () => {
   return (

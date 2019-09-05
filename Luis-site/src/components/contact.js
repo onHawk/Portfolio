@@ -2,15 +2,15 @@ import React from 'react'
 
 import '../sass/contact.scss'
 
-import { Container, Row, Col } from 'reactstrap'
+import { Row, Col } from 'reactstrap'
 import {
-  FaGithub,
-  FaLinkedin,
-  FaMobileAlt,
+  // FaGithub,
+  // FaLinkedin,
+  // FaMobileAlt,
   FaAddressCard,
   FaEnvelope,
   FaGlobe,
-  FaColumns,
+  // FaColumns,
 } from 'react-icons/fa'
 
 const Contact = () => {
