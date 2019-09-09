@@ -13,7 +13,7 @@ const Projects = () => {
         <h2>My Portfolio</h2>
       </div>
       <Row className="grid project-section">
-        <Col className="p project-image" id="gmmm" />
+        <div className="project-image" id="gmmm" />
 
         <Col md="6" className="details">
           <div className="details-body">
@@ -92,7 +92,7 @@ const Projects = () => {
       </Row> */}
 
       <Row className="grid project-section" style={{ flexFlow: 'row-reverse' }}>
-        <Col className="p project-image" id="chronicle" />
+        <div className="project-image" id="chronicle" />
 
         <Col md="6" className="details">
           <div className="details-body">
@@ -125,7 +125,7 @@ const Projects = () => {
       </Row>
 
       <Row className="grid project-section">
-        <Col className="p project-image" id="quicknews" />
+        <div className="project-image" id="quicknews" />
 
         <Col md="6" className="details">
           <div className="details-body">
@@ -157,7 +157,7 @@ const Projects = () => {
           flexFlow: 'row-reverse',
         }}
       >
-        <Col className="p project-image" id="neral" />
+        <div className="project-image" id="neral" />
 
         <Col md="6" className="details">
           <div className="details-body">

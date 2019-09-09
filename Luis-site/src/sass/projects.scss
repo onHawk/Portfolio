@@ -12,30 +12,24 @@
 }
 
 .grid {
-  width: 80%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: all 0.5s;
-  // border-bottom: 1px solid black;
-  // margin-bottom: 10px;
   margin: 0 auto;
+  @media (max-width: 768px) {
+    height: 350px;
+    width: 95%;
+    margin: 1rem auto;
+    flex-flow: column !important;
+  }
 }
 
 .project-section {
   min-height: 75vh;
 }
 
-.p {
-  display: flex;
-  flex-flow: column;
-  height: 450px;
-  min-height: 300px;
-  transition: 0.4s;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .details {
   display: flex;
   flex-flow: column;
@@ -65,6 +59,8 @@
     height: 40vh;
     p {
       font-size: 12px;
+      width: 100%;
+      padding: 35px;
     }
   }
   &-body {
@@ -103,16 +99,23 @@
 }
 
 .project-image {
-  box-shadow: unset;
+  min-width: 494px;
+  background-repeat: no-repeat;
   background-size: contain;
-  // height: 300px;
-  max-width: 570px;
-  border-radius: 3px;
-
-  // height: unset;
-  // min-height: unset;
+  border-radius: 6px;
+  min-height: 276px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.5s;
   &:hover {
-    max-width: 600px;
+    transition: 0.5s;
+    height: height + 100px;
+    width: width + 100px;
+  }
+
+  @media (max-width: 520px) {
+    background-size: cover;
+    background-position: 2%;
+    width: 100%;
   }
 }
 
@@ -128,10 +131,6 @@
 // }
 #chronicle {
   background-image: url('../images/MC-Home.png');
-  height: 340px;
-  &:hover {
-    height: height + 200px;
-  }
 }
 #quicknews {
   background-image: url('../images/quicknewspin.png');
