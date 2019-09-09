@@ -15,7 +15,7 @@ const Projects = () => {
       <Row className="grid project-section">
         <div className="project-image" id="gmmm" />
 
-        <Col md="6" className="details">
+        <Col l="6" md="6" s="10" className="details">
           <div className="details-body">
             <h4 style={{ color: '#e86c62', textAlign: 'end' }}>
               GiveMeMyMoney
@@ -56,45 +56,10 @@ const Projects = () => {
         </Col>
       </Row>
 
-      {/* <Row className="grid project-section">
-        <Col xl="3" l="5" md="5" className="p project-image" id="lambdanotes" />
-
-        <Col
-          md="6"
-          className="details"
-          style={{ margin: '0', backgroundColor: '#bb1333' }}
-        >
-          <div className="details-body">
-            <h4 style={{ color: '#f0f0f0' }}>Lambda Notes</h4>
-            <p>
-              An app that I built for taking notes during my Lambda School
-              classes. Built using React.js on the frontend, and Node.js and
-              MongoDB on the backend.
-            </p>
-            <div className="details-links">
-              <a
-                href="https://github.com/Luisdh/front-end-project-week"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GoCode />
-              </a>
-              <a
-                href="https://l-notes.netlify.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GoDeviceDesktop />
-              </a>
-            </div>
-          </div>
-        </Col>
-      </Row> */}
-
       <Row className="grid project-section" style={{ flexFlow: 'row-reverse' }}>
         <div className="project-image" id="chronicle" />
 
-        <Col md="6" className="details">
+        <Col l="6" md="6" s="10" className="details">
           <div className="details-body">
             <h4 style={{ color: '#a2daff' }}>Memory Chronicles</h4>
             <p>
@@ -127,7 +92,7 @@ const Projects = () => {
       <Row className="grid project-section">
         <div className="project-image" id="quicknews" />
 
-        <Col md="6" className="details">
+        <Col l="6" md="6" s="10" className="details">
           <div className="details-body">
             <h4 style={{ textAlign: 'end' }}>Quicknews</h4>
             <p style={{ alignSelf: 'flex-start' }}>
@@ -159,7 +124,7 @@ const Projects = () => {
       >
         <div className="project-image" id="neral" />
 
-        <Col md="6" className="details">
+        <Col l="6" md="6" s="10" className="details">
           <div className="details-body">
             <h4>Neral Social App</h4>
             <p>
@@ -186,3 +151,40 @@ const Projects = () => {
 }
 
 export default Projects
+
+{
+  /* <Row className="grid project-section">
+        <Col xl="3" l="5" md="5" className="p project-image" id="lambdanotes" />
+
+        <Col
+          md="6"
+          className="details"
+          style={{ margin: '0', backgroundColor: '#bb1333' }}
+        >
+          <div className="details-body">
+            <h4 style={{ color: '#f0f0f0' }}>Lambda Notes</h4>
+            <p>
+              An app that I built for taking notes during my Lambda School
+              classes. Built using React.js on the frontend, and Node.js and
+              MongoDB on the backend.
+            </p>
+            <div className="details-links">
+              <a
+                href="https://github.com/Luisdh/front-end-project-week"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GoCode />
+              </a>
+              <a
+                href="https://l-notes.netlify.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GoDeviceDesktop />
+              </a>
+            </div>
+          </div>
+        </Col>
+      </Row> */
+}
