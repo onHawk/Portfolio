@@ -12,10 +12,7 @@ const Projects = () => {
       <div className="titles">
         <h2>My Portfolio</h2>
       </div>
-      <Row
-        className="grid project-section"
-        style={{ backgroundColor: '#f5f5dc' }}
-      >
+      <Row className="grid project-section">
         <Col className="p project-image" id="gmmm" />
 
         <Col md="6" className="details">
@@ -89,16 +86,13 @@ const Projects = () => {
         </Col>
       </Row> */}
 
-      <Row
-        className="grid project-section"
-        style={{ backgroundColor: '#faf7f0' }}
-      >
+      <Row className="grid project-section" style={{ flexFlow: 'row-reverse' }}>
         <Col className="p project-image" id="chronicle" />
 
         <Col md="6" className="details">
           <div className="details-body">
             <h4 style={{ color: '#a2daff' }}>Memory Chronicles</h4>
-            <p style={{ color: '#333333' }}>
+            <p>
               Simple & easy to use journaling web app built using React.js on
               the frontend, and Node.js and MongoDB on the backend.
               <br />
@@ -125,12 +119,7 @@ const Projects = () => {
         </Col>
       </Row>
 
-      <Row
-        className="grid project-section"
-        style={{
-          backgroundColor: '#2c99ff',
-        }}
-      >
+      <Row className="grid project-section">
         <Col className="p project-image" id="quicknews" />
 
         <Col md="6" className="details">
@@ -157,7 +146,7 @@ const Projects = () => {
       <Row
         className="grid project-section"
         style={{
-          backgroundColor: '#2c99ff',
+          flexFlow: 'row-reverse',
         }}
       >
         <Col className="p project-image" id="neral" />
