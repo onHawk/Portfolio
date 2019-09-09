@@ -12,12 +12,14 @@
 }
 
 .grid {
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: all 0.5s;
-  border-bottom: 1px solid black;
+  // border-bottom: 1px solid black;
   // margin-bottom: 10px;
+  margin: 0 auto;
 }
 
 .project-section {
@@ -29,8 +31,6 @@
   flex-flow: column;
   height: 450px;
   min-height: 300px;
-  // padding: 0 !important;
-  margin: 10px;
   transition: 0.4s;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -42,12 +42,25 @@
   justify-content: space-around;
   font-size: 14px;
   height: 75vh;
+  padding: 0;
   // border-left: 10px solid #333333;
   // border-radius: 3px 0 0 3px;
 
   // box-shadow: -2px 0px 3px rgba(0, 0, 0, 0.12), -1px 0px 3px rgba(0, 0, 0, 0.24);
 
   // box-shadow: 0 5px 6px rgb(144, 144, 144);
+  p {
+    align-self: flex-end;
+    width: 580px;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 25px 50px;
+    margin-top: 50px;
+
+    background-color: rgba(32, 36, 41, 0.842);
+    box-shadow: -2px 0px 3px rgba(0, 0, 0, 0.12),
+      -1px 0px 3px rgba(0, 0, 0, 0.24);
+  }
   @media (max-width: 767px) {
     height: 40vh;
     p {
@@ -55,28 +68,29 @@
     }
   }
   &-body {
+    color: #f0f0f0;
     height: 50%;
     display: flex;
     flex-flow: column;
     justify-content: space-around;
-    padding: 15px;
+    // padding: 15px;
   }
 
   &-links {
     display: flex;
     padding: 5px;
-
+    justify-content: flex-end;
     transition: 0.4s;
     a {
       width: fit-content;
-      color: #333333;
+      color: #e9e9e9;
       align-self: center;
       transition: 0.4s;
       font-size: 30px;
       margin: 4px 30px;
 
       &:hover {
-        color: #16bd00de;
+        color: #7ed8ff;
       }
     }
     @media (max-width: 768px) {
@@ -91,23 +105,33 @@
 .project-image {
   box-shadow: unset;
   background-size: contain;
+  // height: 300px;
+  max-width: 570px;
+  border-radius: 3px;
+
   // height: unset;
   // min-height: unset;
+  &:hover {
+    max-width: 600px;
+  }
 }
 
 /**** GiveMeMyMoney ****/
 #gmmm {
-  background-image: url('../images/Capture.png');
+  background-image: url('../images/gmmm-home.png');
   // height: 280px;
 }
 /**** Lambda Notes ****/
-#lambdanotes {
-  background-image: url('../images/lambdanotes.png');
-  // height: 330px;
-}
+// #lambdanotes {
+//   background-image: url('../images/lambdanotes.png');
+//   // height: 330px;
+// }
 #chronicle {
-  background-image: url('../images/chrncle.jpg');
-  // height: 270px;
+  background-image: url('../images/MC-Home.png');
+  height: 340px;
+  &:hover {
+    height: height + 200px;
+  }
 }
 #quicknews {
   background-image: url('../images/quicknewspin.png');

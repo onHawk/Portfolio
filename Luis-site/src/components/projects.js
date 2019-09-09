@@ -17,8 +17,10 @@ const Projects = () => {
 
         <Col md="6" className="details">
           <div className="details-body">
-            <h4 style={{ color: '#e86c62' }}>GiveMeMyMoney</h4>
-            <p>
+            <h4 style={{ color: '#e86c62', textAlign: 'end' }}>
+              GiveMeMyMoney
+            </h4>
+            <p style={{ alignSelf: 'flex-start' }}>
               Streamline the process of sending invoices and receiving money
               from clients with GiveMeMyMoney. Built using React.js on the
               frontend, and Node.js and MongoDB on the backend. Integrates with
@@ -30,7 +32,10 @@ const Projects = () => {
               using Stripe.
             </p>
 
-            <div className="details-links">
+            <div
+              className="details-links"
+              style={{ justifyContent: 'flex-start' }}
+            >
               <a
                 href="https://github.com/Lambda-School-Labs/CS8-payme"
                 target="_blank"
@@ -124,13 +129,16 @@ const Projects = () => {
 
         <Col md="6" className="details">
           <div className="details-body">
-            <h4>Quicknews</h4>
-            <p>
+            <h4 style={{ textAlign: 'end' }}>Quicknews</h4>
+            <p style={{ alignSelf: 'flex-start' }}>
               Mobile app for browsing the news, sourced from newsapi.org. Built
               using React Native and released on Android. Soon to be released on
               iOS.
             </p>
-            <div className="details-links">
+            <div
+              className="details-links"
+              style={{ justifyContent: 'flex-start' }}
+            >
               <a
                 href="https://github.com/Luisdh/quicknews"
                 target="_blank"
