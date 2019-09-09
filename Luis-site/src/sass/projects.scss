@@ -39,16 +39,10 @@
   flex-flow: column;
   justify-content: space-around;
   font-size: 14px;
-  // height: 75vh;
   padding: 0;
-  // border-left: 10px solid #333333;
-  // border-radius: 3px 0 0 3px;
 
-  // box-shadow: -2px 0px 3px rgba(0, 0, 0, 0.12), -1px 0px 3px rgba(0, 0, 0, 0.24);
-
-  // box-shadow: 0 5px 6px rgb(144, 144, 144);
   p {
-    border: 1px solid red;
+    // border: 1px solid red;
     align-self: flex-end;
     width: 100%;
     border-radius: 3px;
@@ -73,7 +67,6 @@
     display: flex;
     flex-flow: column;
     justify-content: space-around;
-    // padding: 15px;
   }
 
   &-links {
@@ -103,11 +96,11 @@
 }
 
 .project-image {
-  min-width: 494px;
+  width: 494px;
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 6px;
-  min-height: 276px;
+  height: 276px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: 0.5s;
   &:hover {
