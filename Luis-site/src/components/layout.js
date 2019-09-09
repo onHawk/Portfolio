@@ -8,7 +8,6 @@ import '../sass/main.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Header from './header'
-import Nav from './nav'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -25,7 +24,6 @@ const Layout = ({ children }) => (
       <>
         <div className="landing">
           <Header siteTitle={data.site.siteMetadata.title} />
-          <Nav />
         </div>
         <div>{children}</div>
       </>

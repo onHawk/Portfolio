@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import About from '../components/about'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
+import Nav from '../components/nav'
 
 import { Row, Col } from 'reactstrap'
 import {
@@ -27,18 +28,29 @@ const Box = posed.div({
 class IndexPage extends Component {
   state = {
     isVisible: true,
+    offSet: 0,
   }
 
-  // componentDidMount() {
-  //   this.setState({ isVisible: !this.state.isVisible })
-  // }
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll)
+  }
+
+  handleScroll = e => {
+    this.setState({ offSet: window.pageYOffset })
+  }
 
   render() {
+    const { offSet } = this.state
+
     return (
       <Layout>
-        <Box className="box" pose={this.state.isVisible ? 'visible' : 'hidden'}>
-          <About />
-        </Box>
+        <Nav offSet={offSet} />
+
+        <About />
 
         <Projects />
 
