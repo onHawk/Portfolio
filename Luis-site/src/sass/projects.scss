@@ -14,29 +14,32 @@
 .grid {
   width: 85%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   transition: all 0.5s;
-  margin: 0 auto;
+  margin: 1.5rem auto;
   @media (max-width: 1400px) {
-    width: 95%;
+    width: 99%;
   }
-  @media (max-width: 1060px) {
-    height: 90vh;
-    // width: 95%;
-    // margin: 1rem auto;
-    justify-content: space-around;
-    flex-flow: column !important;
+  @media (max-width: 931px) {
+    flex-flow: column;
   }
+
   @media (max-width: 450px) {
+    // height: 691px;
     width: 100%;
-    padding: 0 10px;
+    padding: 20px 10px;
+    justify-content: none;
     border-bottom: 2px solid #7ed8ff;
   }
 }
 
+.grid-reverse {
+  flex-flow: row-reverse;
+}
+
 .project-section {
-  min-height: 75vh;
+  // min-height: 50vh;
 }
 
 .details {
@@ -45,30 +48,36 @@
   justify-content: space-around;
   font-size: 14px;
   padding: 0;
+  width: 45%;
+  margin: 12px 0;
+  @media (max-width: 931px) {
+    width: 99%;
+    align-items: center;
+  }
+
+  @media (max-width: 769px) {
+    margin: 20px 0;
+    p {
+      width: 100%;
+      padding: 25px;
+    }
+  }
 
   p {
     // border: 1px solid red;
-    align-self: flex-end;
     width: 100%;
+    align-self: flex-end;
+    max-width: 650px;
     border-radius: 3px;
-    font-size: 16px;
-    padding: 25px 50px;
-    margin-top: 50px;
+    font-size: 15px;
+    padding: 20px;
+    margin: 10px 0;
     background-color: rgba(32, 36, 41, 0.842);
     box-shadow: -2px 0px 3px rgba(0, 0, 0, 0.12),
       -1px 0px 3px rgba(0, 0, 0, 0.24);
   }
-  @media (max-width: 767px) {
-    height: 40vh;
-    p {
-      font-size: 12px;
-      width: 100%;
-      padding: 35px;
-    }
-  }
   &-body {
     color: #f0f0f0;
-    height: 50%;
     display: flex;
     flex-flow: column;
     justify-content: space-around;
@@ -91,10 +100,10 @@
         color: #7ed8ff;
       }
     }
-    @media (max-width: 768px) {
+    @media (max-width: 769px) {
       padding: 8px 0;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 769px) {
       flex-flow: row;
     }
   }
@@ -105,14 +114,9 @@
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 6px;
-  height: 276px;
+  min-height: 276px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: 0.5s;
-  &:hover {
-    transition: 0.5s;
-    height: height + 100px;
-    width: width + 100px;
-  }
 
   @media (max-width: 520px) {
     background-size: cover;

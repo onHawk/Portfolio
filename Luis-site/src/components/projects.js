@@ -12,12 +12,19 @@ const Projects = () => {
       <div className="titles">
         <h2>My Portfolio</h2>
       </div>
-      <Row className="grid project-section">
+
+      <div className="grid project-section">
         <div className="project-image" id="gmmm" />
 
-        <Col l="6" md="6" s="10" className="details">
+        <div l="6" md="6" s="10" className="details">
           <div className="details-body">
-            <h4 style={{ color: '#e86c62', textAlign: 'end' }}>
+            <h4
+              style={{
+                color: '#e86c62',
+                textAlign: 'end',
+                width: 'fit-content',
+              }}
+            >
               GiveMeMyMoney
             </h4>
             <p style={{ alignSelf: 'flex-start' }}>
@@ -53,13 +60,13 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </Col>
-      </Row>
+        </div>
+      </div>
 
-      <Row className="grid project-section" style={{ flexFlow: 'row-reverse' }}>
+      <div className="grid project-section grid-reverse">
         <div className="project-image" id="chronicle" />
 
-        <Col l="6" md="6" s="10" className="details">
+        <div l="6" md="6" s="10" className="details">
           <div className="details-body">
             <h4 style={{ color: '#a2daff' }}>Memory Chronicles</h4>
             <p>
@@ -86,13 +93,13 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </Col>
-      </Row>
+        </div>
+      </div>
 
-      <Row className="grid project-section">
+      <div className="grid project-section">
         <div className="project-image" id="quicknews" />
 
-        <Col l="6" md="6" s="10" className="details">
+        <div l="6" md="6" s="10" className="details">
           <div className="details-body">
             <h4 style={{ textAlign: 'end' }}>Quicknews</h4>
             <p style={{ alignSelf: 'flex-start' }}>
@@ -113,18 +120,13 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </Col>
-      </Row>
+        </div>
+      </div>
 
-      <Row
-        className="grid project-section"
-        style={{
-          flexFlow: 'row-reverse',
-        }}
-      >
+      <div className="grid project-section grid-reverse">
         <div className="project-image" id="neral" />
 
-        <Col l="6" md="6" s="10" className="details">
+        <div l="6" md="6" s="10" className="details">
           <div className="details-body">
             <h4>Neral Social App</h4>
             <p>
@@ -144,8 +146,8 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </Col>
-      </Row>
+        </div>
+      </div>
     </div>
   )
 }
