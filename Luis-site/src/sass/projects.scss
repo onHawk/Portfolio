@@ -18,6 +18,8 @@
   align-items: center;
   transition: all 0.5s;
   margin: 1.5rem auto;
+  padding: 15px 0;
+
   @media (max-width: 1400px) {
     width: 99%;
   }
@@ -102,7 +104,6 @@
       margin-bottom: 5px;
       transition: 0.4s;
       font-size: 25px;
-      // margin: 0 30px;
 
       &:hover {
         color: #7ed8ff;
