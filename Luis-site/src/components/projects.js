@@ -18,31 +18,17 @@ const Projects = () => {
 
         <div l="6" md="6" s="10" className="details">
           <div className="details-body">
-            <h4
-              style={{
-                color: '#e86c62',
-                textAlign: 'end',
-                width: 'fit-content',
-              }}
-            >
-              GiveMeMyMoney
-            </h4>
-            <p style={{ alignSelf: 'flex-start' }}>
-              Streamline the process of sending invoices and receiving money
-              from clients with GiveMeMyMoney. Built using React.js on the
-              frontend, and Node.js and MongoDB on the backend. Integrates with
-              the Stripe API for handling payments.
-              <br />
-              <br /> As part of the team that built this project, I handled the
-              reminders feature, which sends either an SMS or an email to
-              clients letting them know when an invoice is due and how to pay it
-              using Stripe.
-            </p>
+            <div className="details-header">
+              <h4
+                style={{
+                  color: '#e86c62',
+                  textAlign: 'end',
+                  width: 'fit-content',
+                }}
+              >
+                GiveMeMyMoney
+              </h4>
 
-            <div
-              className="details-links"
-              style={{ justifyContent: 'flex-start' }}
-            >
               <a
                 href="https://github.com/Lambda-School-Labs/CS8-payme"
                 target="_blank"
@@ -59,6 +45,18 @@ const Projects = () => {
                 <GoDeviceDesktop />
               </a>
             </div>
+
+            <p style={{ alignSelf: 'flex-start' }}>
+              Streamline the process of sending invoices and receiving money
+              from clients with GiveMeMyMoney. Built using React.js on the
+              frontend, and Node.js and MongoDB on the backend. Integrates with
+              the Stripe API for handling payments.
+              <br />
+              <br /> As part of the team that built this project, I handled the
+              reminders feature, which sends either an SMS or an email to
+              clients letting them know when an invoice is due and how to pay it
+              using Stripe.
+            </p>
           </div>
         </div>
       </div>
@@ -68,15 +66,9 @@ const Projects = () => {
 
         <div l="6" md="6" s="10" className="details">
           <div className="details-body">
-            <h4 style={{ color: '#a2daff' }}>Memory Chronicles</h4>
-            <p>
-              Simple & easy to use journaling web app built using React.js on
-              the frontend, and Node.js and MongoDB on the backend.
-              <br />
-              <br /> This is one of my personal ongoing projects. Will also be
-              released soon as a mobile app on iOS and Android.
-            </p>
-            <div className="details-links">
+            <div className="details-header">
+              <h4 style={{ color: '#a2daff' }}>Memory Chronicles</h4>
+
               <a
                 href="https://github.com/Luisdh/Memory"
                 target="_blank"
@@ -92,6 +84,13 @@ const Projects = () => {
                 <GoDeviceDesktop />
               </a>
             </div>
+            <p>
+              Simple & easy to use journaling web app built using React.js on
+              the frontend, and Node.js and MongoDB on the backend.
+              <br />
+              <br /> This is one of my personal ongoing projects. Will also be
+              released soon as a mobile app on iOS and Android.
+            </p>
           </div>
         </div>
       </div>
@@ -101,16 +100,9 @@ const Projects = () => {
 
         <div l="6" md="6" s="10" className="details">
           <div className="details-body">
-            <h4 style={{ textAlign: 'end' }}>Quicknews</h4>
-            <p style={{ alignSelf: 'flex-start' }}>
-              Mobile app for browsing the news, sourced from newsapi.org. Built
-              using React Native and released on Android. Soon to be released on
-              iOS.
-            </p>
-            <div
-              className="details-links"
-              style={{ justifyContent: 'flex-start' }}
-            >
+            <div className="details-header">
+              <h4 style={{ textAlign: 'end' }}>Quicknews</h4>
+
               <a
                 href="https://github.com/Luisdh/quicknews"
                 target="_blank"
@@ -119,6 +111,11 @@ const Projects = () => {
                 <GoCode />
               </a>
             </div>
+            <p style={{ alignSelf: 'flex-start' }}>
+              Mobile app for browsing the news, sourced from newsapi.org. Built
+              using React Native and released on Android. Soon to be released on
+              iOS.
+            </p>
           </div>
         </div>
       </div>
@@ -128,15 +125,8 @@ const Projects = () => {
 
         <div l="6" md="6" s="10" className="details">
           <div className="details-body">
-            <h4>Neral Social App</h4>
-            <p>
-              Create a community around a topic and post discussions where users
-              can subscribe and post anything to talk about and start a
-              discussion. <br />
-              Neral as a mobile app was created in a collaborative team using
-              React Native.
-            </p>
-            <div className="details-links">
+            <div className="details-header">
+              <h4>Neral Social App</h4>
               <a
                 href="https://github.com/labsce1-social-app/Lambda-Social-App"
                 target="_blank"
@@ -145,6 +135,13 @@ const Projects = () => {
                 <GoCode />
               </a>
             </div>
+            <p>
+              Create a community around a topic and post discussions where users
+              can subscribe and post anything to talk about and start a
+              discussion. <br />
+              Neral as a mobile app was created in a collaborative team using
+              React Native.
+            </p>
           </div>
         </div>
       </div>
