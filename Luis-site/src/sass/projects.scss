@@ -36,10 +36,9 @@
 
 .grid-reverse {
   flex-flow: row-reverse;
-}
-
-.project-section {
-  // min-height: 50vh;
+  @media (max-width: 931px) {
+    flex-flow: column;
+  }
 }
 
 .details {
