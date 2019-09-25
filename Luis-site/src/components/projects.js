@@ -96,7 +96,7 @@ const Projects = () => {
       </div>
 
       <div className="grid project-section">
-        <div className="project-image" id="quicknews" />
+        <div className="mobile-image" id="quicknews" />
 
         <div l="6" md="6" s="10" className="details">
           <div className="details-body">
@@ -121,7 +121,7 @@ const Projects = () => {
       </div>
 
       <div className="grid project-section grid-reverse">
-        <div className="project-image" id="neral" />
+        <div className="mobile-image" id="neral" />
 
         <div l="6" md="6" s="10" className="details">
           <div className="details-body">

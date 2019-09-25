@@ -129,6 +129,14 @@
 }
 
 .mobile-image {
+  width: 200px;
+  height: 399px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 6px;
+
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.5s;
 }
 
 /**** GiveMeMyMoney ****/
@@ -136,11 +144,7 @@
   background-image: url('../images/gmmm-home.png');
   // height: 280px;
 }
-/**** Lambda Notes ****/
-// #lambdanotes {
-//   background-image: url('../images/lambdanotes.png');
-//   // height: 330px;
-// }
+
 #chronicle {
   background-image: url('../images/MC-Home.png');
 }
@@ -152,4 +156,10 @@
   background-image: url('../images/neral.png');
   // background-color: red;
 }
+
+/**** Lambda Notes ****/
+// #lambdanotes {
+//   background-image: url('../images/lambdanotes.png');
+//   // height: 330px;
+// }
 /*****************************************/
