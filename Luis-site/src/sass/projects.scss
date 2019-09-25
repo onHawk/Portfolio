@@ -28,9 +28,8 @@
   }
 
   @media (max-width: 450px) {
-    // height: 691px;
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 0;
     justify-content: none;
     border-bottom: 2px solid #7ed8ff;
   }
@@ -71,11 +70,14 @@
     max-width: 650px;
     border-radius: 3px;
     font-size: 15px;
-    padding: 20px;
+    padding: 20px 15px;
     margin: 10px 0;
     background-color: rgba(32, 36, 41, 0.842);
-    box-shadow: -2px 0px 3px rgba(0, 0, 0, 0.12),
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
       -1px 0px 3px rgba(0, 0, 0, 0.24);
+    @media (max-width: 450px) {
+      box-shadow: none;
+    }
   }
   &-body {
     color: #f0f0f0;
