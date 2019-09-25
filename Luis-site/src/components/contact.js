@@ -34,7 +34,7 @@ const Contact = () => {
               <input name="name" type="text" placeholder="your name" />
             </Col>
 
-            <Col xl="6" md="6" s="12" className="form-groups">
+            <Col xl="6" md="6" xs="12" className="form-groups">
               <label>Email</label>
               <input name="email" type="email" placeholder="your email" />
             </Col>
