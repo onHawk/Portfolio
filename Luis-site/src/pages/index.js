@@ -16,15 +16,8 @@ import {
   // FaGlobe,
 } from 'react-icons/fa'
 
-import posed from 'react-pose'
+// import posed from 'react-pose'
 
-const Box = posed.div({
-  visible: { opacity: 1 },
-  hidden: { opacity: 0 },
-  transition: {
-    delay: 500,
-  },
-})
 class IndexPage extends Component {
   state = {
     isVisible: true,

@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../sass/projects.scss'
 
-import { Row, Col } from 'reactstrap'
+// import { Row, Col } from 'reactstrap'
 
 import { GoCode, GoDeviceDesktop } from 'react-icons/go'
 
