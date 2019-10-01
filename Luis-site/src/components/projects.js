@@ -133,13 +133,16 @@ const Projects = () => {
           <div className="details-body">
             <div className="details-header">
               <h4>Neral Social App</h4>
-              <a
-                href="https://github.com/labsce1-social-app/Lambda-Social-App"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GoCode />
-              </a>
+
+              <div className="details-links">
+                <a
+                  href="https://github.com/labsce1-social-app/Lambda-Social-App"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GoCode />
+                </a>
+              </div>
             </div>
             <p>
               Create a community around a topic and post discussions where users
