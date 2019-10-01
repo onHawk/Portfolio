@@ -5,7 +5,7 @@ import React from 'react'
 import '../sass/header.scss'
 
 const Header = ({ siteTitle }) => (
-  <div className="header">
+  <div className="header" id="top">
     <div id="intro">
       <h1 style={{ margin: 0 }}>{siteTitle}</h1>
       <p style={{ animationDelay: '.4s' }}>
