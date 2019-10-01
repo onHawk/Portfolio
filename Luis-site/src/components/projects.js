@@ -29,21 +29,23 @@ const Projects = () => {
                 GiveMeMyMoney
               </h4>
 
-              <a
-                href="https://github.com/Lambda-School-Labs/CS8-payme"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GoCode />
-              </a>
+              <div className="details-links">
+                <a
+                  href="https://github.com/Lambda-School-Labs/CS8-payme"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GoCode />
+                </a>
 
-              <a
-                href="http://givememymoney.herokuapp.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GoDeviceDesktop />
-              </a>
+                <a
+                  href="http://givememymoney.herokuapp.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GoDeviceDesktop />
+                </a>
+              </div>
             </div>
 
             <p style={{ alignSelf: 'flex-start' }}>
@@ -69,20 +71,22 @@ const Projects = () => {
             <div className="details-header">
               <h4 style={{ color: '#a2daff' }}>Memory Chronicles</h4>
 
-              <a
-                href="https://github.com/Luisdh/Memory"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GoCode />
-              </a>
-              <a
-                href="https://chronicle-memory.herokuapp.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GoDeviceDesktop />
-              </a>
+              <div className="details-links">
+                <a
+                  href="https://github.com/Luisdh/Memory"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GoCode />
+                </a>
+                <a
+                  href="https://chronicle-memory.herokuapp.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GoDeviceDesktop />
+                </a>
+              </div>
             </div>
             <p>
               Simple & easy to use journaling web app built using React.js on
@@ -103,13 +107,15 @@ const Projects = () => {
             <div className="details-header">
               <h4 style={{ textAlign: 'end' }}>Quicknews</h4>
 
-              <a
-                href="https://github.com/Luisdh/quicknews"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GoCode />
-              </a>
+              <div className="details-links">
+                <a
+                  href="https://github.com/Luisdh/quicknews"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GoCode />
+                </a>
+              </div>
             </div>
             <p style={{ alignSelf: 'flex-start' }}>
               Mobile app for browsing the news, sourced from newsapi.org. Built
