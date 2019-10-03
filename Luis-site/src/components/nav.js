@@ -2,8 +2,6 @@ import React from 'react'
 
 import '../sass/nav.scss'
 
-import { IoIosFlash } from 'react-icons/io'
-
 const Nav = props => {
   const { offSet } = props
 
@@ -44,14 +42,6 @@ const Nav = props => {
           </li>
         </a>
       </ul>
-
-      {offSet > 0 ? (
-        <div className="mycon">
-          <a href="#top">
-            <IoIosFlash />
-          </a>
-        </div>
-      ) : null}
     </div>
   )
 }

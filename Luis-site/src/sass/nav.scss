@@ -37,23 +37,7 @@
   justify-content: space-between;
   transition: 0.5s;
 }
-.mycon {
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  width: 55px;
-  font-size: 32px;
-  border: 0.5px solid #2c3a4485;
-  a {
-    transition: 0.4s;
-    color: #f0f0f0;
-    margin: 0 auto;
-    &:hover {
-      transition: 0.4s;
-      color: #7ed8ff;
-    }
-  }
-}
+
 .nav {
   width: 45%;
   display: flex;

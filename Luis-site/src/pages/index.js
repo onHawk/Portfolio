@@ -15,6 +15,7 @@ import {
   // FaEnvelope,
   // FaGlobe,
 } from 'react-icons/fa'
+import { IoIosFlash } from 'react-icons/io'
 
 // import posed from 'react-pose'
 
@@ -41,6 +42,12 @@ class IndexPage extends Component {
 
     return (
       <Layout>
+        <div className="mycon">
+          <a href="#top">
+            <IoIosFlash />
+          </a>
+        </div>
+
         <Nav offSet={offSet} />
 
         <About />
