@@ -43,9 +43,11 @@ class IndexPage extends Component {
     return (
       <Layout>
         <div className="mycon">
-          <a href="#top">
-            <IoIosFlash />
-          </a>
+          <div className="mycon-move">
+            <a href="#top">
+              <IoIosFlash />
+            </a>
+          </div>
         </div>
 
         <Nav offSet={offSet} />
