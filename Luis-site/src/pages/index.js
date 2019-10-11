@@ -66,11 +66,6 @@ class IndexPage extends Component {
                 </a>
               </div>
             </div>
-            <div className="moveto">
-              <a href="/">
-                <IoIosFlash size="38px" />
-              </a>
-            </div>
           </div>
         </div>
         <Layout>
