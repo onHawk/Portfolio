@@ -42,11 +42,31 @@ class IndexPage extends Component {
 
     return (
       <Layout>
-        <div className="mycon">
-          <div className="mycon-move">
-            <a href="#top">
-              <IoIosFlash />
-            </a>
+        <div className="side_container">
+          <div className="side_section">
+            <div className="side_link">
+              <a
+                href="https://www.github.com/Luisdh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub size="20px" />
+              </a>
+            </div>
+            <div className="side_link">
+              <a
+                href="https://www.linkedin.com/in/luis-diaz-herrera-11a306168/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin size="20px" />
+              </a>
+            </div>
+            <div className="moveto">
+              <a href="#top">
+                <IoIosFlash size="30px" />
+              </a>
+            </div>
           </div>
         </div>
 
