@@ -25,7 +25,14 @@ const Layout = ({ children }) => (
         <div className="landing">
           <Header siteTitle={data.site.siteMetadata.title} />
         </div>
-        <div>{children}</div>
+        <div
+          style={{
+            width: '90%',
+            margin: '0 auto',
+          }}
+        >
+          {children}
+        </div>
       </>
     )}
   />
