@@ -82,7 +82,7 @@ class IndexPage extends Component {
                 </p>
               </Col>
 
-              <Col className="foot-links">
+              <Col className="foot-links foot-social">
                 <a
                   href="https://www.github.com/Luisdh"
                   target="_blank"
@@ -92,7 +92,7 @@ class IndexPage extends Component {
                 </a>
               </Col>
 
-              <Col className="foot-links">
+              <Col className="foot-links foot-social">
                 <a
                   href="https://www.linkedin.com/in/luis-diaz-herrera-11a306168/"
                   target="_blank"
