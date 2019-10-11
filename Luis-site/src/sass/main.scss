@@ -7,7 +7,7 @@
   top: 60px;
   display: flex;
   align-items: flex-end;
-  width: 55px;
+  width: 40px;
   font-size: 32px;
   // border: 0.5px solid #2c3a4485;
   background-color: rgba(29, 35, 46, 0.274);
@@ -21,13 +21,24 @@
   height: 50%;
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
+
+.social_container {
+  display: flex;
+  flex-flow: column;
+  margin: 50px 0;
+}
+
 .side_link {
   width: 100%;
   display: flex;
   justify-content: center;
   transition: 0.4s;
+  margin: 50px 0;
+  @media (max-width: 600px) {
+    display: none;
+  }
 
   a {
     color: #f0f0f0;
@@ -40,6 +51,7 @@
 }
 
 .moveto {
+  align-self: flex-end;
   width: 100%;
   display: flex;
   justify-content: center;
