@@ -28,7 +28,7 @@ const Layout = ({ children }) => (
         <div
           style={{
             width: '90%',
-            margin: '0 50px',
+            margin: '0 auto',
           }}
         >
           {children}
