@@ -56,16 +56,12 @@
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  padding: 0 3rem;
-  margin-bottom: 5rem;
+  // padding: 0 3rem;
+  margin: 5rem auto;
+  width: 85%;
   transition: 0.4s all;
   height: 300px;
-  @media (max-width: 768px) {
-    padding: 1rem;
-  }
-  @media (max-width: 375px) {
-    padding: 1rem 0.5rem;
-  }
+
   h1 {
     animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
     font-size: 6rem;
